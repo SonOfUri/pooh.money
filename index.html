@@ -15,7 +15,8 @@
     <meta property="og:description" content="Where honey meets money" />
     <meta property="og:url" content="https://pooh.money/" />
     <meta property="og:site_name" content="POOH.money" />
-    <meta property="og:image" content="https://pooh.money/wp-content/uploads/2023/04/ia_a_graphic_of_winnie_the_pooh_wearing_a_green_shirt_sitting_i_410d8c58-f52d-46ea-8ada-a9aad3f6c645.png" />
+    <meta property="og:image"
+        content="https://pooh.money/wp-content/uploads/2023/04/ia_a_graphic_of_winnie_the_pooh_wearing_a_green_shirt_sitting_i_410d8c58-f52d-46ea-8ada-a9aad3f6c645.png" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="1024" />
     <meta property="og:image:type" content="image/png" />
@@ -91,7 +92,8 @@
 
     <title>POOH.money - Where honey meets money</title>
     <link rel="alternate" type="application/rss+xml" title="POOH.money &raquo; Feed" href="https://pooh.money/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="POOH.money &raquo; Comments Feed" href="https://pooh.money/comments/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="POOH.money &raquo; Comments Feed"
+        href="https://pooh.money/comments/feed/" />
     <script>
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -103,7 +105,7 @@
             }
         };
         /*! This file is auto-generated */
-        ! function(i, n) {
+        ! function (i, n) {
             var o, s, e;
 
             function c(e) {
@@ -113,14 +115,14 @@
                         timestamp: (new Date).valueOf()
                     };
                     sessionStorage.setItem(o, JSON.stringify(t))
-                } catch (e) {}
+                } catch (e) { }
             }
 
             function p(e, t, n) {
                 e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
                 var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
                     r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
-                return t.every(function(e, t) {
+                return t.every(function (e, t) {
                     return e === r[t]
                 })
             }
@@ -141,7 +143,7 @@
                         willReadFrequently: !0
                     }),
                     o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
-                return e.forEach(function(e) {
+                return e.forEach(function (e) {
                     o[e] = t(a, e, n)
                 }), o
             }
@@ -153,16 +155,16 @@
             "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
                 everything: !0,
                 everythingExceptFlag: !0
-            }, e = new Promise(function(e) {
+            }, e = new Promise(function (e) {
                 i.addEventListener("DOMContentLoaded", e, {
                     once: !0
                 })
-            }), new Promise(function(t) {
-                var n = function() {
+            }), new Promise(function (t) {
+                var n = function () {
                     try {
                         var e = JSON.parse(sessionStorage.getItem(o));
                         if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
-                    } catch (e) {}
+                    } catch (e) { }
                     return null
                 }();
                 if (!n) {
@@ -174,21 +176,21 @@
                             a = new Worker(URL.createObjectURL(r), {
                                 name: "wpTestEmojiSupports"
                             });
-                        return void(a.onmessage = function(e) {
+                        return void (a.onmessage = function (e) {
                             c(n = e.data), a.terminate(), t(n)
                         })
-                    } catch (e) {}
+                    } catch (e) { }
                     c(n = f(s, u, p))
                 }
                 t(n)
-            }).then(function(e) {
+            }).then(function (e) {
                 for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
-                n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function() {
+                n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () {
                     n.DOMReady = !0
                 }
-            }).then(function() {
+            }).then(function () {
                 return e
-            }).then(function() {
+            }).then(function () {
                 var e;
                 n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
             }))
@@ -490,24 +492,31 @@
                 opacity: 1;
                 visibility: visible
             }
+
             .wp-lightbox-overlay.zoom.active .lightbox-image-container {
                 animation: lightbox-zoom-in .4s
             }
+
             .wp-lightbox-overlay.zoom.active .lightbox-image-container img {
                 animation: none
             }
+
             .wp-lightbox-overlay.zoom.active .scrim {
                 animation: turn-on-visibility .4s forwards
             }
+
             .wp-lightbox-overlay.zoom.hideanimationenabled:not(.active) {
                 animation: none
             }
+
             .wp-lightbox-overlay.zoom.hideanimationenabled:not(.active) .lightbox-image-container {
                 animation: lightbox-zoom-out .4s
             }
+
             .wp-lightbox-overlay.zoom.hideanimationenabled:not(.active) .lightbox-image-container img {
                 animation: none
             }
+
             .wp-lightbox-overlay.zoom.hideanimationenabled:not(.active) .scrim {
                 animation: turn-off-visibility .4s forwards
             }
@@ -517,6 +526,7 @@
             0% {
                 opacity: 0
             }
+
             to {
                 opacity: 1
             }
@@ -527,10 +537,12 @@
                 opacity: 1;
                 visibility: visible
             }
+
             99% {
                 opacity: 0;
                 visibility: visible
             }
+
             to {
                 opacity: 0;
                 visibility: hidden
@@ -541,6 +553,7 @@
             0% {
                 transform: translate(calc(-50vw + var(--wp--lightbox-initial-left-position)), calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))
             }
+
             to {
                 transform: translate(-50%, -50%) scale(1)
             }
@@ -551,9 +564,11 @@
                 transform: translate(-50%, -50%) scale(1);
                 visibility: visible
             }
+
             99% {
                 visibility: visible
             }
+
             to {
                 transform: translate(calc(-50vw + var(--wp--lightbox-initial-left-position)), calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));
                 visibility: hidden
@@ -584,7 +599,8 @@
             display: none
         }
     </style>
-    <link rel='stylesheet' id='wp-block-navigation-css' href='https://pooh.money/wp-includes/blocks/navigation/style.min.css?ver=6.4.2' media='all' />
+    <link rel='stylesheet' id='wp-block-navigation-css'
+        href='https://pooh.money/wp-includes/blocks/navigation/style.min.css?ver=6.4.2' media='all' />
     <style id='wp-block-navigation-inline-css'>
         .wp-block-navigation {
             font-size: var(--wp--preset--font-size--tiny-plus);
@@ -706,6 +722,7 @@
                 flex-basis: 0;
                 flex-grow: 1
             }
+
             .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis] {
                 flex-grow: 0
             }
@@ -1032,9 +1049,11 @@
             border-left-width: medium
         }
     </style>
-    <link rel='stylesheet' id='wp-block-cover-css' href='https://pooh.money/wp-includes/blocks/cover/style.min.css?ver=6.4.2' media='all' />
+    <link rel='stylesheet' id='wp-block-cover-css'
+        href='https://pooh.money/wp-includes/blocks/cover/style.min.css?ver=6.4.2' media='all' />
     <style id='wp-block-separator-inline-css'>
         @charset "UTF-8";
+
         .wp-block-separator {
             border: 1px solid;
             border-left: none;
@@ -1362,7 +1381,7 @@
             --wp--preset--color--pale-cyan-blue: #8ed1fc;
             --wp--preset--color--vivid-cyan-blue: #0693e3;
             --wp--preset--color--vivid-purple: #9b51e0;
-            --wp--preset--color--primary: #1AAD64;
+            --wp--preset--color--primary: #405ca8;
             --wp--preset--color--secondary: #2750E1;
             --wp--preset--color--lemmonary: #FFE156;
             --wp--preset--color--body: #2C2C2C;
@@ -2730,9 +2749,12 @@
             z-index: 100000;
         }
     </style>
-    <link rel='stylesheet' id='lemmony-editor-css' href='https://pooh.money/wp-content/themes/lemmony/assets/css/styles.css?ver=1.1.4' media='all' />
-    <script src="https://pooh.money/wp-includes/js/dist/interactivity.min.js?ver=6.4.2" id="wp-interactivity-js" defer data-wp-strategy="defer"></script>
-    <script src="https://pooh.money/wp-includes/blocks/navigation/view.min.js?ver=e3d6f3216904b5b42831" id="wp-block-navigation-view-js" defer data-wp-strategy="defer"></script>
+    <link rel='stylesheet' id='lemmony-editor-css'
+        href='https://pooh.money/wp-content/themes/lemmony/assets/css/styles.css?ver=1.1.4' media='all' />
+    <script src="https://pooh.money/wp-includes/js/dist/interactivity.min.js?ver=6.4.2" id="wp-interactivity-js" defer
+        data-wp-strategy="defer"></script>
+    <script src="https://pooh.money/wp-includes/blocks/navigation/view.min.js?ver=e3d6f3216904b5b42831"
+        id="wp-block-navigation-view-js" defer data-wp-strategy="defer"></script>
     <link rel="https://api.w.org/" href="https://pooh.money/wp-json/" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pooh.money/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.4.2" />
@@ -2740,7 +2762,7 @@
     <script type="text/javascript">
         var jQueryMigrateHelperHasSentDowngrade = false;
 
-        window.onerror = function(msg, url, line, col, error) {
+        window.onerror = function (msg, url, line, col, error) {
             // Break out early, do not processing if a downgrade reqeust was already sent.
             if (jQueryMigrateHelperHasSentDowngrade) {
                 return true;
@@ -2772,7 +2794,7 @@
 
             xhr.open('POST', 'https://pooh.money/wp-admin/admin-ajax.php');
             xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-            xhr.onload = function() {
+            xhr.onload = function () {
                 var response,
                     reload = false;
 
@@ -2852,100 +2874,126 @@
     <div class="wp-site-blocks">
         <header class="site-header wp-block-template-part">
             <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
+                <div
+                    class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
-                        <div class="wp-block-group alignwide is-content-justification-space-between is-layout-flex wp-container-core-group-layout-2 wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--10);padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
-                            <figure class="wp-block-image size-full"><a href="https://pooh.money/"><img decoding="async" width="300" height="107" src="https://pooh.money/wp-content/uploads/2023/04/pooh-logo-1.png" alt="" class="wp-image-23"/></a></figure>
+                        <div class="wp-block-group alignwide is-content-justification-space-between is-layout-flex wp-container-core-group-layout-2 wp-block-group-is-layout-flex"
+                            style="margin-top:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--10);padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
+                            <figure class="wp-block-image size-full"><a href="https://pooh.money/"><img decoding="async"
+                                        width="300" height="107"
+                                        src="./default/logo.png" alt=""
+                                        class="wp-image-23" /></a></figure>
 
 
-                            <nav style="font-style:normal;font-weight:700;" class="has-tiny-plus-font-size is-responsive items-justified-left wp-block-navigation has-tiny-plus-font-size is-content-justification-left is-layout-flex wp-container-core-navigation-layout-1 wp-block-navigation-is-layout-flex"
-                                aria-label="Header navigation" data-wp-interactive data-wp-context='{"core":{"navigation":{"overlayOpenedBy":[],"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}}}'><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-wp-on--click="actions.core.navigation.openMenuOnClick" data-wp-on--keydown="actions.core.navigation.handleMenuKeydown"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5" /><rect x="4" y="15" width="16" height="1.5" /></svg></button>
-                                <div class="wp-block-navigation__responsive-container  " style="" id="modal-1" data-wp-class--has-modal-open="selectors.core.navigation.isMenuOpen" data-wp-class--is-menu-open="selectors.core.navigation.isMenuOpen" data-wp-effect="effects.core.navigation.initMenu"
-                                    data-wp-on--keydown="actions.core.navigation.handleMenuKeydown" data-wp-on--focusout="actions.core.navigation.handleMenuFocusout" tabindex="-1">
+                            <nav style="font-style:normal;font-weight:700;"
+                                class="has-tiny-plus-font-size is-responsive items-justified-left wp-block-navigation has-tiny-plus-font-size is-content-justification-left is-layout-flex wp-container-core-navigation-layout-1 wp-block-navigation-is-layout-flex"
+                                aria-label="Header navigation" data-wp-interactive
+                                data-wp-context='{"core":{"navigation":{"overlayOpenedBy":[],"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}}}'>
+                                <button aria-haspopup="true" aria-label="Open menu"
+                                    class="wp-block-navigation__responsive-container-open "
+                                    data-wp-on--click="actions.core.navigation.openMenuOnClick"
+                                    data-wp-on--keydown="actions.core.navigation.handleMenuKeydown"><svg width="24"
+                                        height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        aria-hidden="true" focusable="false">
+                                        <rect x="4" y="7.5" width="16" height="1.5" />
+                                        <rect x="4" y="15" width="16" height="1.5" />
+                                    </svg></button>
+                                <div class="wp-block-navigation__responsive-container  " style="" id="modal-1"
+                                    data-wp-class--has-modal-open="selectors.core.navigation.isMenuOpen"
+                                    data-wp-class--is-menu-open="selectors.core.navigation.isMenuOpen"
+                                    data-wp-effect="effects.core.navigation.initMenu"
+                                    data-wp-on--keydown="actions.core.navigation.handleMenuKeydown"
+                                    data-wp-on--focusout="actions.core.navigation.handleMenuFocusout" tabindex="-1">
                                     <div class="wp-block-navigation__responsive-close" tabindex="-1">
-                                        <div class="wp-block-navigation__responsive-dialog" data-wp-bind--aria-modal="selectors.core.navigation.ariaModal" data-wp-bind--aria-label="selectors.core.navigation.ariaLabel" data-wp-bind--role="selectors.core.navigation.roleAttribute" data-wp-effect="effects.core.navigation.focusFirstElement">
-                                            <button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" data-wp-on--click="actions.core.navigation.closeMenuOnClick"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"></path></svg></button>
-                                            <div class="wp-block-navigation__responsive-container-content" id="modal-1-content">
-                                                <ul style="font-style:normal;font-weight:700;" class="wp-block-navigation__container has-tiny-plus-font-size is-responsive items-justified-left wp-block-navigation has-tiny-plus-font-size">
-                                                    <li data-wp-context="{ &quot;core&quot;: { &quot;navigation&quot;: { &quot;submenuOpenedBy&quot;: {}, &quot;type&quot;: &quot;submenu&quot; } } }" data-wp-effect="effects.core.navigation.initMenu" data-wp-interactive
-                                                        data-wp-on--focusout="actions.core.navigation.handleMenuFocusout" data-wp-on--keydown="actions.core.navigation.handleMenuKeydown" data-wp-on--mouseenter="actions.core.navigation.openMenuOnHover" data-wp-on--mouseleave="actions.core.navigation.closeMenuOnHover"
-                                                        tabindex="-1" class="has-tiny-plus-font-size wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" href="#">Learn about POOH</a><button data-wp-bind--aria-expanded="selectors.core.navigation.isMenuOpen" data-wp-on--click="actions.core.navigation.toggleMenuOnClick"
-                                                            aria-label="Learn about POOH submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button>
-                                                        <ul
-                                                            data-wp-on--focus="actions.core.navigation.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu">
-                                                            <li class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="#tokenomics"><span class="wp-block-navigation-item__label">Tokenomics</span><span class="wp-block-navigation-item__description">Powering POOH</span></a></li>
+                                        <div class="wp-block-navigation__responsive-dialog"
+                                            data-wp-bind--aria-modal="selectors.core.navigation.ariaModal"
+                                            data-wp-bind--aria-label="selectors.core.navigation.ariaLabel"
+                                            data-wp-bind--role="selectors.core.navigation.roleAttribute"
+                                            data-wp-effect="effects.core.navigation.focusFirstElement">
+                                            <button aria-label="Close menu"
+                                                class="wp-block-navigation__responsive-container-close"
+                                                data-wp-on--click="actions.core.navigation.closeMenuOnClick"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                                    height="24" aria-hidden="true" focusable="false">
+                                                    <path
+                                                        d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z">
+                                                    </path>
+                                                </svg></button>
+                                            <div class="wp-block-navigation__responsive-container-content"
+                                                id="modal-1-content">
+                                                <ul style="font-style:normal;font-weight:700;"
+                                                    class="wp-block-navigation__container has-tiny-plus-font-size is-responsive items-justified-left wp-block-navigation has-tiny-plus-font-size">
+                                                    <li data-wp-context="{ &quot;core&quot;: { &quot;navigation&quot;: { &quot;submenuOpenedBy&quot;: {}, &quot;type&quot;: &quot;submenu&quot; } } }"
+                                                        data-wp-effect="effects.core.navigation.initMenu"
+                                                        data-wp-interactive
+                                                        data-wp-on--focusout="actions.core.navigation.handleMenuFocusout"
+                                                        data-wp-on--keydown="actions.core.navigation.handleMenuKeydown"
+                                                        data-wp-on--mouseenter="actions.core.navigation.openMenuOnHover"
+                                                        data-wp-on--mouseleave="actions.core.navigation.closeMenuOnHover"
+                                                        tabindex="-1"
+                                                        class="has-tiny-plus-font-size wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu">
+                                                        <a class="wp-block-navigation-item__content" href="#">Learn
+                                                            about JEWLON</a><button
+                                                            data-wp-bind--aria-expanded="selectors.core.navigation.isMenuOpen"
+                                                            data-wp-on--click="actions.core.navigation.toggleMenuOnClick"
+                                                            aria-label="Learn about POOH submenu"
+                                                            class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle"
+                                                            aria-expanded="false"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="12"
+                                                                height="12" viewBox="0 0 12 12" fill="none"
+                                                                aria-hidden="true" focusable="false">
+                                                                <path d="M1.50002 4L6.00002 8L10.5 4"
+                                                                    stroke-width="1.5"></path>
+                                                            </svg></button>
+                                                        <ul data-wp-on--focus="actions.core.navigation.openMenuOnFocus"
+                                                            class="wp-block-navigation__submenu-container wp-block-navigation-submenu">
                                                             <li
-                                                                class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="#how-to-buy"><span class="wp-block-navigation-item__label">Buying POOH</span><span class="wp-block-navigation-item__description">Guide to purchase</span></a></li>
-                                                    <li
-                                                        class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="#roadmap"><span class="wp-block-navigation-item__label">Roadmap</span><span class="wp-block-navigation-item__description">Expect Nothing</span></a></li>
+                                                                class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link">
+                                                                <a class="wp-block-navigation-item__content"
+                                                                    href="#tokenomics"><span
+                                                                        class="wp-block-navigation-item__label">Tokenomics</span><span
+                                                                        class="wp-block-navigation-item__description">Powering
+                                                                        JEWLON</span></a></li>
+                                                            
+                                                        </ul>
+                                                    </li>
+                                                   
+                                                    <li data-wp-context="{ &quot;core&quot;: { &quot;navigation&quot;: { &quot;submenuOpenedBy&quot;: {}, &quot;type&quot;: &quot;submenu&quot; } } }"
+                                                        data-wp-effect="effects.core.navigation.initMenu"
+                                                        data-wp-interactive
+                                                        data-wp-on--focusout="actions.core.navigation.handleMenuFocusout"
+                                                        data-wp-on--keydown="actions.core.navigation.handleMenuKeydown"
+                                                        data-wp-on--mouseenter="actions.core.navigation.openMenuOnHover"
+                                                        data-wp-on--mouseleave="actions.core.navigation.closeMenuOnHover"
+                                                        tabindex="-1"
+                                                        class="has-tiny-plus-font-size wp-block-navigation-item has-child open-on-hover-click has-background has-primary-background-color wp-block-navigation-submenu is-layout-flow wp-block-navigation-submenu-is-layout-flow">
+                                                        <a class="wp-block-navigation-item__content">🦄 BUY
+                                                            NOW</a><button
+                                                            data-wp-bind--aria-expanded="selectors.core.navigation.isMenuOpen"
+                                                            data-wp-on--click="actions.core.navigation.toggleMenuOnClick"
+                                                            aria-label="🦄 BUY NOW submenu"
+                                                            class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle"
+                                                            aria-expanded="false"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="12"
+                                                                height="12" viewBox="0 0 12 12" fill="none"
+                                                                aria-hidden="true" focusable="false">
+                                                                <path d="M1.50002 4L6.00002 8L10.5 4"
+                                                                    stroke-width="1.5"></path>
+                                                            </svg></button>
+                                                        <ul data-wp-on--focus="actions.core.navigation.openMenuOnFocus"
+                                                            class="wp-block-navigation__submenu-container has-background has-primary-background-color has-background has-primary-background-color wp-block-navigation-submenu">
+                                                            <li
+                                                                class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link">
+                                                                <a class="wp-block-navigation-item__content"
+                                                                    href="\"><span
+                                                                        class="wp-block-navigation-item__label">Buy
+                                                                        JEWLON</span><span
+                                                                        class="wp-block-navigation-item__description">Buy
+                                                                        JEWLON on Uniswap</span></a></li>
+                                                          
+                                                        </ul>
+                                                    </li>
                                                 </ul>
-                                                </li>
-                                                <li data-wp-context="{ &quot;core&quot;: { &quot;navigation&quot;: { &quot;submenuOpenedBy&quot;: {}, &quot;type&quot;: &quot;submenu&quot; } } }" data-wp-effect="effects.core.navigation.initMenu" data-wp-interactive
-                                                    data-wp-on--focusout="actions.core.navigation.handleMenuFocusout" data-wp-on--keydown="actions.core.navigation.handleMenuKeydown" data-wp-on--mouseenter="actions.core.navigation.openMenuOnHover" data-wp-on--mouseleave="actions.core.navigation.closeMenuOnHover"
-                                                    tabindex="-1" class="has-tiny-plus-font-size wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content">Contracts &amp; Bridges</a><button data-wp-bind--aria-expanded="selectors.core.navigation.isMenuOpen" data-wp-on--click="actions.core.navigation.toggleMenuOnClick"
-                                                        aria-label="Contracts &amp; Bridges submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button>
-                                                    <ul
-                                                        data-wp-on--focus="actions.core.navigation.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu">
-                                                        <li class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://etherscan.io/address/0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371"><span class="wp-block-navigation-item__label">$POOH Contract</span><span class="wp-block-navigation-item__description">Native to Ethereum</span></a></li>
-                                                        <li
-                                                            class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://etherscan.io/address/0x07c904d8c04323ef9fe6bf13aaeba05b62c54825"><span class="wp-block-navigation-item__label">$EEYOR Contract</span><span class="wp-block-navigation-item__description">Native to Ethereum</span></a></li>
-                                                <li
-                                                    class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://etherscan.io/address/0x4f6adc5f7427ebf43efe23347eb4ebaa398646cf"><span class="wp-block-navigation-item__label">$TIGG Contract</span><span class="wp-block-navigation-item__description">Native to Ethereum</span></a></li>
-                                                    <li
-                                                        class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://solscan.io/token/J8XFfJgS1cs5WVGxGwZb9Rt5rJZizdyzaLhidtvDnYjC"><span class="wp-block-navigation-item__label">POOH (Solana)</span><span class="wp-block-navigation-item__description">Bridge to Solana</span></a></li>
-                                                        <li
-                                                            class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://solscan.io/token/5kyEDexp9ExmFUVcbKmNy5QXQWhHBsPaLt1MieBXZBYj"><span class="wp-block-navigation-item__label">EEYOR (Solana)</span><span class="wp-block-navigation-item__description">Bridge to Solana</span></a></li>
-                                                            </ul>
-                                                            </li>
-                                                            <li data-wp-context="{ &quot;core&quot;: { &quot;navigation&quot;: { &quot;submenuOpenedBy&quot;: {}, &quot;type&quot;: &quot;submenu&quot; } } }" data-wp-effect="effects.core.navigation.initMenu"
-                                                                data-wp-interactive data-wp-on--focusout="actions.core.navigation.handleMenuFocusout" data-wp-on--keydown="actions.core.navigation.handleMenuKeydown" data-wp-on--mouseenter="actions.core.navigation.openMenuOnHover"
-                                                                data-wp-on--mouseleave="actions.core.navigation.closeMenuOnHover" tabindex="-1" class="has-tiny-plus-font-size wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" target="_blank">DAOs</a><button data-wp-bind--aria-expanded="selectors.core.navigation.isMenuOpen" data-wp-on--click="actions.core.navigation.toggleMenuOnClick"
-                                                                    aria-label="DAOs submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button>
-                                                                <ul
-                                                                    data-wp-on--focus="actions.core.navigation.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu">
-                                                                    <li class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://pooh.money/nft/"><span class="wp-block-navigation-item__label">POOH Crew NFT</span><span class="wp-block-navigation-item__description">NFT Collection with DAO Treasury</span></a></li>
-                                                                    <li
-                                                                        class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://www.tally.xyz/gov/pooh"><span class="wp-block-navigation-item__label">$POOH DAO</span><span class="wp-block-navigation-item__description">Primary DAO run by $POOH holders</span></a></li>
-                                                            </ul>
-                                                            </li>
-                                                            <li data-wp-context="{ &quot;core&quot;: { &quot;navigation&quot;: { &quot;submenuOpenedBy&quot;: {}, &quot;type&quot;: &quot;submenu&quot; } } }" data-wp-effect="effects.core.navigation.initMenu"
-                                                                data-wp-interactive data-wp-on--focusout="actions.core.navigation.handleMenuFocusout" data-wp-on--keydown="actions.core.navigation.handleMenuKeydown" data-wp-on--mouseenter="actions.core.navigation.openMenuOnHover"
-                                                                data-wp-on--mouseleave="actions.core.navigation.closeMenuOnHover" tabindex="-1" class="has-tiny-plus-font-size wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" target="_blank">Charts</a><button data-wp-bind--aria-expanded="selectors.core.navigation.isMenuOpen" data-wp-on--click="actions.core.navigation.toggleMenuOnClick"
-                                                                    aria-label="Charts submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button>
-                                                                <ul
-                                                                    data-wp-on--focus="actions.core.navigation.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu">
-                                                                    <li class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://www.dextools.io/app/en/ether/pair-explorer/0xaf06e7c7170eb22d52eb09b5ec5d1373c34164e9"><span class="wp-block-navigation-item__label">$POOH</span><span class="wp-block-navigation-item__description">POOH Performance</span></a></li>
-                                                                    <li
-                                                                        class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://www.dextools.io/app/en/ether/pair-explorer/0xe8b8db87ddf242ed56dada79aad5bb0f3db7afa3"><span class="wp-block-navigation-item__label">$EEYOR</span><span class="wp-block-navigation-item__description">EEYOR Performance</span></a></li>
-                                                            </ul>
-                                                            </li>
-                                                            <li data-wp-context="{ &quot;core&quot;: { &quot;navigation&quot;: { &quot;submenuOpenedBy&quot;: {}, &quot;type&quot;: &quot;submenu&quot; } } }" data-wp-effect="effects.core.navigation.initMenu"
-                                                                data-wp-interactive data-wp-on--focusout="actions.core.navigation.handleMenuFocusout" data-wp-on--keydown="actions.core.navigation.handleMenuKeydown" data-wp-on--mouseenter="actions.core.navigation.openMenuOnHover"
-                                                                data-wp-on--mouseleave="actions.core.navigation.closeMenuOnHover" tabindex="-1" class="has-tiny-plus-font-size wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" href="https://pooh.money/nft/" target="_blank">POOH Universe</a><button data-wp-bind--aria-expanded="selectors.core.navigation.isMenuOpen" data-wp-on--click="actions.core.navigation.toggleMenuOnClick"
-                                                                    aria-label="POOH Universe submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button>
-                                                                <ul
-                                                                    data-wp-on--focus="actions.core.navigation.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu">
-                                                                    <li class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://pooh.money/nft/"><span class="wp-block-navigation-item__label">POOH Crew NFT</span><span class="wp-block-navigation-item__description">NFT Collection with ETH Treasury</span></a></li>
-                                                                    <li
-                                                                        class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://pooh.money/eeyor/"><span class="wp-block-navigation-item__label">EEYOR</span><span class="wp-block-navigation-item__description">Meme coin with tax owned by POOH DAO</span></a></li>
-                                                            <li
-                                                                class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://pooh.money/tigg/"><span class="wp-block-navigation-item__label">TIGG</span><span class="wp-block-navigation-item__description">Meme coin with tax owned by POOH DAO</span></a></li>
-                                                                </ul>
-                                                                </li>
-                                                                <li data-wp-context="{ &quot;core&quot;: { &quot;navigation&quot;: { &quot;submenuOpenedBy&quot;: {}, &quot;type&quot;: &quot;submenu&quot; } } }" data-wp-effect="effects.core.navigation.initMenu"
-                                                                    data-wp-interactive data-wp-on--focusout="actions.core.navigation.handleMenuFocusout" data-wp-on--keydown="actions.core.navigation.handleMenuKeydown" data-wp-on--mouseenter="actions.core.navigation.openMenuOnHover"
-                                                                    data-wp-on--mouseleave="actions.core.navigation.closeMenuOnHover" tabindex="-1" class="has-tiny-plus-font-size wp-block-navigation-item has-child open-on-hover-click has-background has-primary-background-color wp-block-navigation-submenu is-layout-flow wp-block-navigation-submenu-is-layout-flow"><a class="wp-block-navigation-item__content">🦄 BUY NOW</a><button data-wp-bind--aria-expanded="selectors.core.navigation.isMenuOpen" data-wp-on--click="actions.core.navigation.toggleMenuOnClick"
-                                                                        aria-label="🦄 BUY NOW submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button>
-                                                                    <ul
-                                                                        data-wp-on--focus="actions.core.navigation.openMenuOnFocus" class="wp-block-navigation__submenu-container has-background has-primary-background-color has-background has-primary-background-color wp-block-navigation-submenu">
-                                                                        <li class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://app.uniswap.org/swap?inputCurrency=ETH&#038;outputCurrency=0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371"><span class="wp-block-navigation-item__label">Buy POOH</span><span class="wp-block-navigation-item__description">Buy POOH on Uniswap</span></a></li>
-                                                                        <li
-                                                                            class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://app.uniswap.org/swap?inputCurrency=ETH&#038;outputCurrency=0x07c904d8c04323ef9fe6bf13aaeba05b62c54825"><span class="wp-block-navigation-item__label">Buy EEYOR</span><span class="wp-block-navigation-item__description">Buy EEYOR on Uniswap</span></a></li>
-                                                                <li
-                                                                    class="has-tiny-plus-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://app.uniswap.org/swap?inputCurrency=ETH&#038;outputCurrency=0x4f6adc5f7427ebf43efe23347eb4ebaa398646cf"><span class="wp-block-navigation-item__label">Buy TIGG</span><span class="wp-block-navigation-item__description">Buy TIGG on Uniswap</span></a></li>
-                                                                    </ul>
-                                                                    </li>
-                                                                    </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -2953,7 +3001,8 @@
                             </nav>
 
 
-                            <div class="wp-block-group lemmony-mobile-hidden is-nowrap is-layout-flex wp-container-core-group-layout-1 wp-block-group-is-layout-flex">
+                            <div
+                                class="wp-block-group lemmony-mobile-hidden is-nowrap is-layout-flex wp-container-core-group-layout-1 wp-block-group-is-layout-flex">
                                 <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex"></div>
                             </div>
 
@@ -2967,50 +3016,79 @@
         </header>
 
 
-        <main class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-            <div class="wp-block-columns alignwide are-vertically-aligned-center lemmony-mobile-center is-layout-flex wp-container-core-columns-layout-3 wp-block-columns-is-layout-flex" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:96px">
-                <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-layout-2 wp-block-column-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-                    <h1 class="wp-block-heading has-gigantic-font-size lemmony-animation" style="line-height:1.2;--lemmony-animation-name:lemmonyFadeInUp"><strong>POOH</strong></h1>
+        <main
+            class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+            <div class="wp-block-columns alignwide are-vertically-aligned-center lemmony-mobile-center is-layout-flex wp-container-core-columns-layout-3 wp-block-columns-is-layout-flex"
+                style="padding-top:var(--wp--preset--spacing--70);padding-bottom:96px">
+                <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-layout-2 wp-block-column-is-layout-flow"
+                    style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+                    <h1 class="wp-block-heading has-gigantic-font-size lemmony-animation"
+                        style="line-height:1.2;--lemmony-animation-name:lemmonyFadeInUp"><strong>POOH</strong></h1>
 
 
 
-                    <h3 class="wp-block-heading has-gigantic-font-size lemmony-animation" style="line-height:1.2;--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-xsmall)">Where Honey Meets Money</h3>
+                    <h3 class="wp-block-heading has-gigantic-font-size lemmony-animation"
+                        style="line-height:1.2;--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-xsmall)">
+                        Where Honey Meets Money</h3>
                 </div>
 
 
 
                 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-                    <div class="wp-block-columns is-layout-flex wp-container-core-columns-layout-2 wp-block-columns-is-layout-flex" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+                    <div class="wp-block-columns is-layout-flex wp-container-core-columns-layout-2 wp-block-columns-is-layout-flex"
+                        style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
                         <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                            <div class="wp-block-group lemmony-animation has-global-padding is-layout-constrained wp-container-core-group-layout-4 wp-block-group-is-layout-constrained" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-xsmall)">
-                                <div class="wp-block-lemmony-companion-icon" style="font-size:clamp(27.894px, 1.743rem + ((1vw - 3.2px) * 1.571), 48px);">
-                                    <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-reactroot=""><path d="M16.009,28.015c-4.512,0-8.619-2.226-10.987-5.954c-0.296-0.466-0.158-1.084,0.308-1.38   c0.466-0.299,1.084-0.158,1.38,0.308c1.999,3.147,5.475,5.026,9.299,5.026c0.003,0,0.006,0,0.009,0   c3.816-0.003,7.282-1.882,9.271-5.025c0.296-0.467,0.912-0.606,1.38-0.31c0.467,0.295,0.605,0.913,0.31,1.38   c-2.357,3.725-6.454,5.951-10.959,5.955C16.016,28.015,16.012,28.015,16.009,28.015z M16,20.861c-2.787,0-5.054-2.267-5.054-5.053   s2.267-5.054,5.054-5.054c2.787,0,5.054,2.267,5.054,5.054S18.787,20.861,16,20.861z M16,12.754c-1.684,0-3.054,1.37-3.054,3.054   c0,1.683,1.37,3.053,3.054,3.053s3.054-1.37,3.054-3.053C19.054,14.124,17.684,12.754,16,12.754z M2.499,13.298   c-0.183,0-0.369-0.05-0.535-0.156c-0.466-0.296-0.604-0.914-0.308-1.38c3.093-4.871,8.459-7.777,14.356-7.777   c0.004,0,0.009,0,0.014,0c5.887,0.004,11.239,2.912,14.319,7.778c0.296,0.466,0.157,1.084-0.31,1.379   c-0.466,0.298-1.084,0.157-1.38-0.31c-2.712-4.284-7.434-6.844-12.631-6.848c-0.004,0-0.008,0-0.012,0   c-5.209,0-9.943,2.56-12.667,6.85C3.154,13.134,2.83,13.298,2.499,13.298z"></path></svg></div>
+                            <div class="wp-block-group lemmony-animation has-global-padding is-layout-constrained wp-container-core-group-layout-4 wp-block-group-is-layout-constrained"
+                                style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-xsmall)">
+                                <div class="wp-block-lemmony-companion-icon"
+                                    style="font-size:clamp(27.894px, 1.743rem + ((1vw - 3.2px) * 1.571), 48px);">
+                                    <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 32 32" data-reactroot="">
+                                            <path
+                                                d="M16.009,28.015c-4.512,0-8.619-2.226-10.987-5.954c-0.296-0.466-0.158-1.084,0.308-1.38   c0.466-0.299,1.084-0.158,1.38,0.308c1.999,3.147,5.475,5.026,9.299,5.026c0.003,0,0.006,0,0.009,0   c3.816-0.003,7.282-1.882,9.271-5.025c0.296-0.467,0.912-0.606,1.38-0.31c0.467,0.295,0.605,0.913,0.31,1.38   c-2.357,3.725-6.454,5.951-10.959,5.955C16.016,28.015,16.012,28.015,16.009,28.015z M16,20.861c-2.787,0-5.054-2.267-5.054-5.053   s2.267-5.054,5.054-5.054c2.787,0,5.054,2.267,5.054,5.054S18.787,20.861,16,20.861z M16,12.754c-1.684,0-3.054,1.37-3.054,3.054   c0,1.683,1.37,3.053,3.054,3.053s3.054-1.37,3.054-3.053C19.054,14.124,17.684,12.754,16,12.754z M2.499,13.298   c-0.183,0-0.369-0.05-0.535-0.156c-0.466-0.296-0.604-0.914-0.308-1.38c3.093-4.871,8.459-7.777,14.356-7.777   c0.004,0,0.009,0,0.014,0c5.887,0.004,11.239,2.912,14.319,7.778c0.296,0.466,0.157,1.084-0.31,1.379   c-0.466,0.298-1.084,0.157-1.38-0.31c-2.712-4.284-7.434-6.844-12.631-6.848c-0.004,0-0.008,0-0.012,0   c-5.209,0-9.943,2.56-12.667,6.85C3.154,13.134,2.83,13.298,2.499,13.298z">
+                                            </path>
+                                        </svg></div>
                                 </div>
 
 
 
-                                <h3 class="wp-block-heading has-medium-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:700;line-height:1.4">Design</h3>
+                                <h3 class="wp-block-heading has-medium-font-size"
+                                    style="margin-top:var(--wp--preset--spacing--30);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:700;line-height:1.4">
+                                    Design</h3>
 
 
 
-                                <p class="has-tiny-plus-font-size">POOH launched stealth with no presale, zero taxes, 95% supply in LP at launch, keys burnt and contract renounced. <strong>$POOH</strong> is for the people &#8211; forever.</p>
+                                <p class="has-tiny-plus-font-size">POOH launched stealth with no presale, zero taxes,
+                                    95% supply in LP at launch, keys burnt and contract renounced.
+                                    <strong>$POOH</strong> is for the people &#8211; forever.</p>
                             </div>
                         </div>
 
 
 
-                        <div class="wp-block-column lemmony-animation is-layout-flow wp-container-core-column-layout-4 wp-block-column-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-small)">
-                            <div class="wp-block-lemmony-companion-icon" style="font-size:clamp(27.894px, 1.743rem + ((1vw - 3.2px) * 1.571), 48px);">
-                                <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-reactroot=""><path d="M16,30.5c-0.552,0-1-0.447-1-1v-0.513c0-0.553,0.448-1,1-1s1,0.447,1,1V29.5C17,30.053,16.552,30.5,16,30.5z M25.546,26.546c-0.256,0-0.512-0.098-0.707-0.293l-0.362-0.362c-0.391-0.391-0.391-1.023,0-1.414s1.023-0.391,1.414,0l0.362,0.362 c0.391,0.391,0.391,1.023,0,1.414C26.058,26.448,25.802,26.546,25.546,26.546z M6.454,26.546c-0.256,0-0.512-0.098-0.708-0.293 c-0.39-0.392-0.39-1.024,0.001-1.415l0.363-0.362c0.391-0.389,1.023-0.39,1.414,0.001c0.39,0.392,0.39,1.024-0.001,1.415 l-0.363,0.362C6.965,26.448,6.71,26.546,6.454,26.546z M16,24.5c-4.687,0-8.5-3.813-8.5-8.5c0-4.687,3.813-8.5,8.5-8.5 c4.687,0,8.5,3.813,8.5,8.5C24.5,20.687,20.687,24.5,16,24.5z M16,9.5c-3.584,0-6.5,2.916-6.5,6.5s2.916,6.5,6.5,6.5 s6.5-2.916,6.5-6.5S19.584,9.5,16,9.5z M29.5,17h-0.513c-0.553,0-1-0.448-1-1s0.447-1,1-1H29.5c0.553,0,1,0.448,1,1 S30.053,17,29.5,17z M3.013,17H2.5c-0.552,0-1-0.448-1-1s0.448-1,1-1h0.513c0.552,0,1,0.448,1,1S3.565,17,3.013,17z M6.817,7.817 c-0.256,0-0.512-0.098-0.707-0.293L5.747,7.161c-0.391-0.391-0.391-1.023,0-1.414s1.023-0.391,1.414,0L7.524,6.11 c0.391,0.391,0.391,1.023,0,1.414C7.329,7.719,7.073,7.817,6.817,7.817z M25.184,7.817c-0.256,0-0.512-0.098-0.707-0.292 c-0.391-0.39-0.391-1.023-0.001-1.414l0.362-0.363c0.391-0.392,1.024-0.391,1.415-0.001c0.391,0.39,0.391,1.023,0.001,1.414 l-0.362,0.363C25.696,7.719,25.439,7.817,25.184,7.817z M16,4.013c-0.552,0-1-0.448-1-1V2.5c0-0.552,0.448-1,1-1s1,0.448,1,1v0.513 C17,3.565,16.552,4.013,16,4.013z"></path></svg></div>
+                        <div class="wp-block-column lemmony-animation is-layout-flow wp-container-core-column-layout-4 wp-block-column-is-layout-flow"
+                            style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-small)">
+                            <div class="wp-block-lemmony-companion-icon"
+                                style="font-size:clamp(27.894px, 1.743rem + ((1vw - 3.2px) * 1.571), 48px);">
+                                <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 32 32" data-reactroot="">
+                                        <path
+                                            d="M16,30.5c-0.552,0-1-0.447-1-1v-0.513c0-0.553,0.448-1,1-1s1,0.447,1,1V29.5C17,30.053,16.552,30.5,16,30.5z M25.546,26.546c-0.256,0-0.512-0.098-0.707-0.293l-0.362-0.362c-0.391-0.391-0.391-1.023,0-1.414s1.023-0.391,1.414,0l0.362,0.362 c0.391,0.391,0.391,1.023,0,1.414C26.058,26.448,25.802,26.546,25.546,26.546z M6.454,26.546c-0.256,0-0.512-0.098-0.708-0.293 c-0.39-0.392-0.39-1.024,0.001-1.415l0.363-0.362c0.391-0.389,1.023-0.39,1.414,0.001c0.39,0.392,0.39,1.024-0.001,1.415 l-0.363,0.362C6.965,26.448,6.71,26.546,6.454,26.546z M16,24.5c-4.687,0-8.5-3.813-8.5-8.5c0-4.687,3.813-8.5,8.5-8.5 c4.687,0,8.5,3.813,8.5,8.5C24.5,20.687,20.687,24.5,16,24.5z M16,9.5c-3.584,0-6.5,2.916-6.5,6.5s2.916,6.5,6.5,6.5 s6.5-2.916,6.5-6.5S19.584,9.5,16,9.5z M29.5,17h-0.513c-0.553,0-1-0.448-1-1s0.447-1,1-1H29.5c0.553,0,1,0.448,1,1 S30.053,17,29.5,17z M3.013,17H2.5c-0.552,0-1-0.448-1-1s0.448-1,1-1h0.513c0.552,0,1,0.448,1,1S3.565,17,3.013,17z M6.817,7.817 c-0.256,0-0.512-0.098-0.707-0.293L5.747,7.161c-0.391-0.391-0.391-1.023,0-1.414s1.023-0.391,1.414,0L7.524,6.11 c0.391,0.391,0.391,1.023,0,1.414C7.329,7.719,7.073,7.817,6.817,7.817z M25.184,7.817c-0.256,0-0.512-0.098-0.707-0.292 c-0.391-0.39-0.391-1.023-0.001-1.414l0.362-0.363c0.391-0.392,1.024-0.391,1.415-0.001c0.391,0.39,0.391,1.023,0.001,1.414 l-0.362,0.363C25.696,7.719,25.439,7.817,25.184,7.817z M16,4.013c-0.552,0-1-0.448-1-1V2.5c0-0.552,0.448-1,1-1s1,0.448,1,1v0.513 C17,3.565,16.552,4.013,16,4.013z">
+                                        </path>
+                                    </svg></div>
                             </div>
 
 
 
-                            <h3 class="wp-block-heading has-medium-font-size" style="margin-top:var(--wp--preset--spacing--30);font-style:normal;font-weight:700;line-height:1.4">Idea</h3>
+                            <h3 class="wp-block-heading has-medium-font-size"
+                                style="margin-top:var(--wp--preset--spacing--30);font-style:normal;font-weight:700;line-height:1.4">
+                                Idea</h3>
 
 
 
-                            <p class="has-tiny-plus-font-size">The most recognizable bear in the world claimed his rightful place on the charts. Now he&#8217;s leading the charge on a life changing bull market with the POOH Universe.</p>
+                            <p class="has-tiny-plus-font-size">The most recognizable bear in the world claimed his
+                                rightful place on the charts. Now he&#8217;s leading the charge on a life changing bull
+                                market with the POOH Universe.</p>
                         </div>
                     </div>
                 </div>
@@ -3018,231 +3096,260 @@
 
 
 
-            <div class="wp-block-cover alignfull is-light lemmony-parallax" style="margin-top:0;margin-bottom:0;padding-top:13vw;padding-right:2rem;padding-bottom:15vw;padding-left:2rem"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img width="1920" height="1080" class="wp-block-cover__image-background wp-image-59" alt="" src="https://pooh.money/wp-content/uploads/2023/04/The-Forest-Background-1.png"
-                    data-object-fit="cover" srcset="https://pooh.money/wp-content/uploads/2023/04/The-Forest-Background-1.png 1920w, https://pooh.money/wp-content/uploads/2023/04/The-Forest-Background-1-300x169.png 300w, https://pooh.money/wp-content/uploads/2023/04/The-Forest-Background-1-1024x576.png 1024w, https://pooh.money/wp-content/uploads/2023/04/The-Forest-Background-1-768x432.png 768w, https://pooh.money/wp-content/uploads/2023/04/The-Forest-Background-1-1536x864.png 1536w"
+            <div class="wp-block-cover alignfull is-light lemmony-parallax"
+                style="margin-top:0;margin-bottom:0;padding-top:13vw;padding-right:2rem;padding-bottom:15vw;padding-left:2rem">
+                <span aria-hidden="true"
+                    class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img width="1920"
+                    height="1080" class="wp-block-cover__image-background wp-image-59" alt=""
+                    src="https://pooh.money/wp-content/uploads/2023/04/The-Forest-Background-1.png"
+                    data-object-fit="cover"
+                    srcset="https://pooh.money/wp-content/uploads/2023/04/The-Forest-Background-1.png 1920w, https://pooh.money/wp-content/uploads/2023/04/The-Forest-Background-1-300x169.png 300w, https://pooh.money/wp-content/uploads/2023/04/The-Forest-Background-1-1024x576.png 1024w, https://pooh.money/wp-content/uploads/2023/04/The-Forest-Background-1-768x432.png 768w, https://pooh.money/wp-content/uploads/2023/04/The-Forest-Background-1-1536x864.png 1536w"
                     sizes="(max-width: 1920px) 100vw, 1920px" />
                 <div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
-                    <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-layout-4 wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
-                        <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"></div>
+                    <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-layout-4 wp-block-columns-is-layout-flex"
+                        style="margin-top:0;margin-bottom:0">
+                        <div
+                            class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+                        </div>
 
 
 
-                        <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"></div>
+                        <div
+                            class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+                        </div>
 
 
 
-                        <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:500px">
-                            <div class="wp-block-group has-white-background-color has-background has-global-padding is-layout-constrained wp-container-core-group-layout-5 wp-block-group-is-layout-constrained" style="border-radius:25px;padding-top:64px;padding-right:var(--wp--preset--spacing--50);padding-bottom:64px;padding-left:var(--wp--preset--spacing--50)">
-                                <h5 class="wp-block-heading has-text-align-center has-small-font-size" style="font-style:normal;font-weight:600;line-height:1.6">Built on Ethereum</h5>
+                        <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
+                            style="flex-basis:500px">
+                            <div class="wp-block-group has-white-background-color has-background has-global-padding is-layout-constrained wp-container-core-group-layout-5 wp-block-group-is-layout-constrained"
+                                style="border-radius:25px;padding-top:64px;padding-right:var(--wp--preset--spacing--50);padding-bottom:64px;padding-left:var(--wp--preset--spacing--50)">
+                                <h5 class="wp-block-heading has-text-align-center has-small-font-size"
+                                    style="font-style:normal;font-weight:600;line-height:1.6">Built on Ethereum</h5>
 
 
 
-                                <h2 class="wp-block-heading has-text-align-center has-heading-color has-text-color has-medium-plus-font-size" style="margin-top:var(--wp--preset--spacing--10);margin-right:0;margin-bottom:var(--wp--preset--spacing--20);line-height:1.4">Get $POOH </h2>
+                                <h2 class="wp-block-heading has-text-align-center has-heading-color has-text-color has-medium-plus-font-size"
+                                    style="margin-top:var(--wp--preset--spacing--10);margin-right:0;margin-bottom:var(--wp--preset--spacing--20);line-height:1.4">
+                                    Get $JEWLON </h2>
 
 
 
-                                <p class="has-text-align-center has-paragraph-color has-text-color has-small-font-size">POOH is supported on popular DeFi wallets like MetaMask</p>
+                                <p class="has-text-align-center has-paragraph-color has-text-color has-small-font-size">
+                                    JEWLON is supported on popular DeFi wallets like MetaMask</p>
 
 
 
-                                <figure class="wp-block-image aligncenter size-full"><img width="150" height="150" src="https://pooh.money/wp-content/uploads/2023/04/Pooh-icon-small-1.png" alt="" class="wp-image-54" /></figure>
+                                <figure class="wp-block-image aligncenter size-full"><img width="150" height="150"
+                                        src="/default/logo.png" alt=""
+                                        class="wp-image-54" /></figure>
 
 
 
-                                <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-layout-3 wp-block-buttons-is-layout-flex" style="margin-top:40px">
-                                    <div class="wp-block-button has-custom-font-size has-tiny-plus-font-size" style="font-style:normal;font-weight:700"><a class="wp-block-button__link wp-element-button" href="https://app.uniswap.org/#/swap?inputCurrency=ETH&amp;outputCurrency=0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371" target="_blank" rel="noreferrer noopener">Buy on Uniswap</a></div>
+                                <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-layout-3 wp-block-buttons-is-layout-flex"
+                                    style="margin-top:40px">
+                                    <div class="wp-block-button has-custom-font-size has-tiny-plus-font-size"
+                                        style="font-style:normal;font-weight:700"><a
+                                            class="wp-block-button__link wp-element-button"
+                                            href="#"
+                                            target="_blank" rel="noreferrer noopener">Buy on Uniswap</a></div>
                                 </div>
                             </div>
                         </div>
 
 
 
-                        <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:3%"></div>
+                        <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
+                            style="flex-basis:3%"></div>
                     </div>
                 </div>
             </div>
 
 
 
-            <div class="wp-block-group alignwide has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
-                <div class="wp-block-group alignwide is-content-justification-space-between is-layout-flex wp-container-core-group-layout-6 wp-block-group-is-layout-flex" style="margin-top:0;margin-bottom:0">
-                    <figure class="wp-block-image size-full"><img width="250" height="94" src="https://pooh.money/wp-content/uploads/2023/04/1-1.png" alt="" class="wp-image-32" /></figure>
 
 
 
-                    <figure class="wp-block-image size-full"><a href="https://app.uniswap.org/#/swap?exactField=&amp;inputCurrency=0xB69753c06BB5c366BE51E73bFc0cC2e3DC07E371"><img width="250" height="94" src="https://pooh.money/wp-content/uploads/2023/04/2.png" alt="" class="wp-image-33"/></a></figure>
 
-
-
-                    <figure class="wp-block-image size-full"><img width="250" height="94" src="https://pooh.money/wp-content/uploads/2023/04/3.png" alt="" class="wp-image-35" /></figure>
-
-
-
-                    <figure class="wp-block-image size-full"><a href="https://www.coingecko.com/en/coins/pooh"><img width="250" height="94" src="https://pooh.money/wp-content/uploads/2023/04/4.png" alt="" class="wp-image-36"/></a></figure>
-
-
-
-                    <figure class="wp-block-image size-full"><a href="https://coinmarketcap.com/currencies/pooh/"><img width="250" height="94" src="https://pooh.money/wp-content/uploads/2023/04/5.png" alt="" class="wp-image-37"/></a></figure>
-
-
-
-                    <figure class="wp-block-image size-full"><a href="https://www.gate.io/trade/POOH_USDT"><img width="250" height="94" src="https://pooh.money/wp-content/uploads/2023/05/gate-logo.png" alt="" class="wp-image-160"/></a></figure>
-
-
-
-                    <figure class="wp-block-image size-full"><a href="https://poloniex.com/trade/POOH_USDT?type=spot"><img width="250" height="94" src="https://pooh.money/wp-content/uploads/2023/05/poloniex-pooh.png" alt="" class="wp-image-157"/></a></figure>
-
-
-
-                    <figure class="wp-block-image size-full"><a href="https://www.huobi.com/en-us/exchange/pooh_usdt"><img width="250" height="94" src="https://pooh.money/wp-content/uploads/2023/05/huobi-1.png" alt="" class="wp-image-155"/></a></figure>
-
-
-
-                    <figure class="wp-block-image size-full"><a href="https://www.bkex.com/en/trade/POOH_USDT"><img width="250" height="94" src="https://pooh.money/wp-content/uploads/2023/05/bkex-logo.png" alt="" class="wp-image-161"/></a></figure>
-
-
-
-                    <figure class="wp-block-image size-full"><a href="https://www.mexc.com/exchange/POOH_USDT?_from=market"><img width="250" height="94" src="https://pooh.money/wp-content/uploads/2023/05/mexc-pooh.png" alt="" class="wp-image-172"/></a></figure>
-                </div>
-            </div>
-
-
-
-            <div class="wp-block-columns alignfull are-vertically-aligned-center is-not-stacked-on-mobile has-xsmall-font-size is-layout-flex wp-container-core-columns-layout-5 wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:var(--wp--preset--spacing--60);padding-left:0">
-                <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:48%">
-                    <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" />
-                </div>
-
-
-
-                <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:320px">
-                    <p class="has-text-align-center has-tiny-plus-font-size" style="font-style:normal;font-weight:600">POOH is Available Worldwide</p>
-                </div>
-
-
-
-                <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:48%">
-                    <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" />
-                </div>
-            </div>
-
-
-
-            <div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" id="tokenomics" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-                <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-6 wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px">
-                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:13%"></div>
-
-
-
-                    <div class="wp-block-column is-layout-flow wp-container-core-column-layout-14 wp-block-column-is-layout-flow">
-                        <figure class="wp-block-image aligncenter size-large lemmony-animation" style="--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-xsmall)"><img src="https://pooh.money/wp-content/themes/lemmony/assets/media/content/star.svg" alt="" class="wp-image-2969" /></figure>
-
-
-
-                        <h2 class="wp-block-heading alignwide has-text-align-center has-huge-plus-font-size lemmony-animation" style="margin-top:var(--wp--preset--spacing--20);line-height:1.2;--lemmony-animation-name:lemmonyFadeInUp">POOH is for <em>you</em></h2>
-
-
-
-                        <h5 class="wp-block-heading has-text-align-center has-small-plus-font-size lemmony-animation" style="line-height:1.4;--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-xsmall)">No taxes, no nonsense. <br>Simple tokenomics make POOH sustainable &amp; deflationary for the long term.<br>$POOH is the governance token for the entire POOH Universe.</h5>
+            <div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" id="tokenomics"
+                style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+                <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-6 wp-block-columns-is-layout-flex"
+                    style="margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px">
+                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:13%">
                     </div>
 
 
 
-                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:13%"></div>
+                    <div
+                        class="wp-block-column is-layout-flow wp-container-core-column-layout-14 wp-block-column-is-layout-flow">
+                        <figure class="wp-block-image aligncenter size-large lemmony-animation"
+                            style="--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-xsmall)">
+                            <img src="https://pooh.money/wp-content/themes/lemmony/assets/media/content/star.svg" alt=""
+                                class="wp-image-2969" /></figure>
+
+
+
+                        <h2 class="wp-block-heading alignwide has-text-align-center has-huge-plus-font-size lemmony-animation"
+                            style="margin-top:var(--wp--preset--spacing--20);line-height:1.2;--lemmony-animation-name:lemmonyFadeInUp">
+                            JEWLON is for <em>you</em></h2>
+
+
+
+                        <h5 class="wp-block-heading has-text-align-center has-small-plus-font-size lemmony-animation"
+                            style="line-height:1.4;--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-xsmall)">
+                            No taxes, no nonsense. <br>Simple tokenomics make JEWLON sustainable &amp; deflationary for
+                            the long term.<br>$JEWLON is the governance token for the entire JEWLON Universe.</h5>
+                    </div>
+
+
+
+                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:13%">
+                    </div>
                 </div>
 
 
 
-                <div class="wp-block-columns alignwide are-vertically-aligned-center lemmony-mobile-center is-layout-flex wp-container-core-columns-layout-7 wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:0">
-                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-layout-16 wp-block-column-is-layout-flow" style="flex-basis:30%">
-                        <div class="wp-block-group lemmony-animation lemmonyFadeIn lemmony-animation has-global-padding is-layout-constrained wp-container-core-group-layout-8 wp-block-group-is-layout-constrained" style="--lemmony-animation-name:lemmonyFadeIn">
-                            <div class="wp-block-lemmony-companion-icon" style="font-size:clamp(27.894px, 1.743rem + ((1vw - 3.2px) * 1.571), 48px);">
-                                <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-reactroot=""><path d="M10.128,30.498c-2.209,0.001-4.418-0.841-6.1-2.522c-1.63-1.63-2.528-3.798-2.526-6.104 c0.001-2.304,0.898-4.469,2.526-6.097c1.398-1.398,3.25-2.278,5.214-2.476c0.56-0.055,1.041,0.346,1.096,0.895 c0.055,0.55-0.345,1.04-0.895,1.096c-1.507,0.152-2.928,0.827-4.001,1.9c-1.25,1.25-1.939,2.914-1.94,4.684 c-0.001,1.771,0.688,3.437,1.94,4.688c2.584,2.585,6.788,2.583,9.372,0c1.073-1.073,1.748-2.494,1.9-4.001 c0.056-0.549,0.545-0.941,1.096-0.895c0.55,0.056,0.95,0.546,0.895,1.096c-0.199,1.965-1.078,3.816-2.477,5.214 C14.547,29.657,12.337,30.498,10.128,30.498z M12.391,20.664c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414 l7.705-7.704c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-7.705,7.704C12.903,20.566,12.647,20.664,12.391,20.664z M22.66,18.71c-0.507,0-0.941-0.384-0.994-0.899c-0.056-0.55,0.345-1.04,0.895-1.096c1.507-0.152,2.928-0.827,4.001-1.9 c2.584-2.584,2.584-6.788,0-9.372c-1.251-1.251-2.915-1.94-4.685-1.94c-0.002,0-0.003,0-0.004,0c-1.77,0.001-3.434,0.69-4.684,1.94 c-1.073,1.073-1.748,2.494-1.9,4.001c-0.055,0.549-0.536,0.955-1.096,0.895c-0.549-0.056-0.95-0.546-0.895-1.096 c0.198-1.964,1.078-3.815,2.476-5.214c1.628-1.628,3.793-2.525,6.097-2.526c0.001,0,0.003,0,0.005,0 c2.304,0,4.47,0.897,6.099,2.526c3.363,3.364,3.363,8.836,0,12.2c-1.397,1.398-3.249,2.277-5.214,2.477 C22.728,18.708,22.693,18.71,22.66,18.71z"></path></svg></div>
+                <div class="wp-block-columns alignwide are-vertically-aligned-center lemmony-mobile-center is-layout-flex wp-container-core-columns-layout-7 wp-block-columns-is-layout-flex"
+                    style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:0">
+                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-layout-16 wp-block-column-is-layout-flow"
+                        style="flex-basis:30%">
+                        <div class="wp-block-group lemmony-animation lemmonyFadeIn lemmony-animation has-global-padding is-layout-constrained wp-container-core-group-layout-8 wp-block-group-is-layout-constrained"
+                            style="--lemmony-animation-name:lemmonyFadeIn">
+                            <div class="wp-block-lemmony-companion-icon"
+                                style="font-size:clamp(27.894px, 1.743rem + ((1vw - 3.2px) * 1.571), 48px);">
+                                <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 32 32" data-reactroot="">
+                                        <path
+                                            d="M10.128,30.498c-2.209,0.001-4.418-0.841-6.1-2.522c-1.63-1.63-2.528-3.798-2.526-6.104 c0.001-2.304,0.898-4.469,2.526-6.097c1.398-1.398,3.25-2.278,5.214-2.476c0.56-0.055,1.041,0.346,1.096,0.895 c0.055,0.55-0.345,1.04-0.895,1.096c-1.507,0.152-2.928,0.827-4.001,1.9c-1.25,1.25-1.939,2.914-1.94,4.684 c-0.001,1.771,0.688,3.437,1.94,4.688c2.584,2.585,6.788,2.583,9.372,0c1.073-1.073,1.748-2.494,1.9-4.001 c0.056-0.549,0.545-0.941,1.096-0.895c0.55,0.056,0.95,0.546,0.895,1.096c-0.199,1.965-1.078,3.816-2.477,5.214 C14.547,29.657,12.337,30.498,10.128,30.498z M12.391,20.664c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414 l7.705-7.704c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-7.705,7.704C12.903,20.566,12.647,20.664,12.391,20.664z M22.66,18.71c-0.507,0-0.941-0.384-0.994-0.899c-0.056-0.55,0.345-1.04,0.895-1.096c1.507-0.152,2.928-0.827,4.001-1.9 c2.584-2.584,2.584-6.788,0-9.372c-1.251-1.251-2.915-1.94-4.685-1.94c-0.002,0-0.003,0-0.004,0c-1.77,0.001-3.434,0.69-4.684,1.94 c-1.073,1.073-1.748,2.494-1.9,4.001c-0.055,0.549-0.536,0.955-1.096,0.895c-0.549-0.056-0.95-0.546-0.895-1.096 c0.198-1.964,1.078-3.815,2.476-5.214c1.628-1.628,3.793-2.525,6.097-2.526c0.001,0,0.003,0,0.005,0 c2.304,0,4.47,0.897,6.099,2.526c3.363,3.364,3.363,8.836,0,12.2c-1.397,1.398-3.249,2.277-5.214,2.477 C22.728,18.708,22.693,18.71,22.66,18.71z">
+                                        </path>
+                                    </svg></div>
                             </div>
 
 
 
-                            <h3 class="wp-block-heading has-small-plus-font-size" style="font-style:normal;font-weight:600;line-height:1.6">Community</h3>
+                            <h3 class="wp-block-heading has-small-plus-font-size"
+                                style="font-style:normal;font-weight:600;line-height:1.6">Community</h3>
 
 
 
-                            <p class="has-tiny-plus-font-size" style="margin-top:var(--wp--preset--spacing--20)"><strong>POOH</strong> is a decentralized community movement that people can smile about! Leaders from various online communities will allocate resources toward the development of POOH&#8217;s future. Anyone with skills or time
+                            <p class="has-tiny-plus-font-size" style="margin-top:var(--wp--preset--spacing--20)">
+                                <strong>POOH</strong> is a decentralized community movement that people can smile about!
+                                Leaders from various online communities will allocate resources toward the development
+                                of POOH&#8217;s future. Anyone with skills or time
                                 can contribute as part of a group or on their own to help advance POOH.</p>
                         </div>
 
 
 
-                        <div class="wp-block-group lemmony-animation lemmonyFadeIn lemmony-animation has-global-padding is-layout-constrained wp-container-core-group-layout-9 wp-block-group-is-layout-constrained" style="--lemmony-animation-name:lemmonyFadeIn">
-                            <div class="wp-block-lemmony-companion-icon" style="font-size:clamp(27.894px, 1.743rem + ((1vw - 3.2px) * 1.571), 48px);">
-                                <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-reactroot=""><path d="M14.228,30.5c-0.109,0-0.22-0.018-0.328-0.055c-0.433-0.15-0.708-0.576-0.668-1.033l0.904-10.288H7.542 c-0.367,0-0.705-0.201-0.88-0.524c-0.174-0.323-0.158-0.716,0.043-1.023L16.931,1.952c0.251-0.384,0.731-0.548,1.164-0.397 c0.434,0.15,0.709,0.576,0.669,1.032L17.86,12.87h6.599c0.367,0,0.705,0.201,0.88,0.524s0.158,0.716-0.043,1.023l-10.23,15.63 C14.876,30.336,14.558,30.5,14.228,30.5z M9.391,17.124h5.836c0.28,0,0.548,0.118,0.737,0.324c0.189,0.207,0.283,0.484,0.259,0.764 l-0.651,7.407l7.036-10.75h-5.841c-0.28,0-0.548-0.118-0.737-0.325c-0.189-0.207-0.283-0.483-0.259-0.763l0.651-7.401L9.391,17.124 z"></path></svg></div>
+                        <div class="wp-block-group lemmony-animation lemmonyFadeIn lemmony-animation has-global-padding is-layout-constrained wp-container-core-group-layout-9 wp-block-group-is-layout-constrained"
+                            style="--lemmony-animation-name:lemmonyFadeIn">
+                            <div class="wp-block-lemmony-companion-icon"
+                                style="font-size:clamp(27.894px, 1.743rem + ((1vw - 3.2px) * 1.571), 48px);">
+                                <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 32 32" data-reactroot="">
+                                        <path
+                                            d="M14.228,30.5c-0.109,0-0.22-0.018-0.328-0.055c-0.433-0.15-0.708-0.576-0.668-1.033l0.904-10.288H7.542 c-0.367,0-0.705-0.201-0.88-0.524c-0.174-0.323-0.158-0.716,0.043-1.023L16.931,1.952c0.251-0.384,0.731-0.548,1.164-0.397 c0.434,0.15,0.709,0.576,0.669,1.032L17.86,12.87h6.599c0.367,0,0.705,0.201,0.88,0.524s0.158,0.716-0.043,1.023l-10.23,15.63 C14.876,30.336,14.558,30.5,14.228,30.5z M9.391,17.124h5.836c0.28,0,0.548,0.118,0.737,0.324c0.189,0.207,0.283,0.484,0.259,0.764 l-0.651,7.407l7.036-10.75h-5.841c-0.28,0-0.548-0.118-0.737-0.325c-0.189-0.207-0.283-0.483-0.259-0.763l0.651-7.401L9.391,17.124 z">
+                                        </path>
+                                    </svg></div>
                             </div>
 
 
 
-                            <h3 class="wp-block-heading has-small-plus-font-size" style="font-style:normal;font-weight:600;line-height:1.6">Trust &amp; Transparency</h3>
+                            <h3 class="wp-block-heading has-small-plus-font-size"
+                                style="font-style:normal;font-weight:600;line-height:1.6">Trust &amp; Transparency</h3>
 
 
 
-                            <p class="has-tiny-plus-font-size" style="margin-top:var(--wp--preset--spacing--20)"><strong>95% of POOH was sent to the Uniswap liquidity pool</strong> at launch, LP tokens were burnt, and contract was renounced! <strong>5% was allocated to centralized exchanges</strong> for listing. The mission is for POOH
+                            <p class="has-tiny-plus-font-size" style="margin-top:var(--wp--preset--spacing--20)">
+                                <strong>95% of POOH was sent to the Uniswap liquidity pool</strong> at launch, LP tokens
+                                were burnt, and contract was renounced! <strong>5% was allocated to centralized
+                                    exchanges</strong> for listing. The mission is for POOH
                                 to grow, survive and develop organically. Everyone gets an equal chance to own POOH.</p>
                         </div>
                     </div>
 
 
 
-                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-layout-17 wp-block-column-is-layout-flow" style="flex-basis:40%">
-                        <figure class="wp-block-image size-large lemmony-absolute lemmony-zindex-10 lemmony-spin lemmony-animation" style="--lemmony-animation-name:lemmonyFadeInUp;animation-duration:var(--lemmony-speed-fast);animation-delay:var(--lemmony-delay-small)"><img src="https://pooh.money/wp-content/themes/lemmony/assets/media/content/scroll-down.svg" alt="" class="wp-image-2972" /></figure>
+                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-layout-17 wp-block-column-is-layout-flow"
+                        style="flex-basis:40%">
+                        <figure
+                            class="wp-block-image size-large lemmony-absolute lemmony-zindex-10 lemmony-spin lemmony-animation"
+                            style="--lemmony-animation-name:lemmonyFadeInUp;animation-duration:var(--lemmony-speed-fast);animation-delay:var(--lemmony-delay-small)">
+                            <img src="https://pooh.money/wp-content/themes/lemmony/assets/media/content/scroll-down.svg"
+                                alt="" class="wp-image-2972" /></figure>
 
 
 
-                        <figure class="wp-block-image aligncenter size-full"><img width="1024" height="1024" src="https://pooh.money/wp-content/uploads/2023/04/ia_a_graphic_of_winnie_the_pooh_wearing_a_green_shirt_sitting_i_410d8c58-f52d-46ea-8ada-a9aad3f6c645.png" alt="" class="wp-image-27" srcset="https://pooh.money/wp-content/uploads/2023/04/ia_a_graphic_of_winnie_the_pooh_wearing_a_green_shirt_sitting_i_410d8c58-f52d-46ea-8ada-a9aad3f6c645.png 1024w, https://pooh.money/wp-content/uploads/2023/04/ia_a_graphic_of_winnie_the_pooh_wearing_a_green_shirt_sitting_i_410d8c58-f52d-46ea-8ada-a9aad3f6c645-300x300.png 300w, https://pooh.money/wp-content/uploads/2023/04/ia_a_graphic_of_winnie_the_pooh_wearing_a_green_shirt_sitting_i_410d8c58-f52d-46ea-8ada-a9aad3f6c645-150x150.png 150w, https://pooh.money/wp-content/uploads/2023/04/ia_a_graphic_of_winnie_the_pooh_wearing_a_green_shirt_sitting_i_410d8c58-f52d-46ea-8ada-a9aad3f6c645-768x768.png 768w"
+                        <figure class="wp-block-image aligncenter size-full"><img width="1024" height="1024"
+                                src="https://pooh.money/wp-content/uploads/2023/04/ia_a_graphic_of_winnie_the_pooh_wearing_a_green_shirt_sitting_i_410d8c58-f52d-46ea-8ada-a9aad3f6c645.png"
+                                alt="" class="wp-image-27"
+                                srcset="https://pooh.money/wp-content/uploads/2023/04/ia_a_graphic_of_winnie_the_pooh_wearing_a_green_shirt_sitting_i_410d8c58-f52d-46ea-8ada-a9aad3f6c645.png 1024w, https://pooh.money/wp-content/uploads/2023/04/ia_a_graphic_of_winnie_the_pooh_wearing_a_green_shirt_sitting_i_410d8c58-f52d-46ea-8ada-a9aad3f6c645-300x300.png 300w, https://pooh.money/wp-content/uploads/2023/04/ia_a_graphic_of_winnie_the_pooh_wearing_a_green_shirt_sitting_i_410d8c58-f52d-46ea-8ada-a9aad3f6c645-150x150.png 150w, https://pooh.money/wp-content/uploads/2023/04/ia_a_graphic_of_winnie_the_pooh_wearing_a_green_shirt_sitting_i_410d8c58-f52d-46ea-8ada-a9aad3f6c645-768x768.png 768w"
                                 sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
                     </div>
 
 
 
-                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-layout-18 wp-block-column-is-layout-flow" style="flex-basis:30%">
-                        <div class="wp-block-group lemmony-mobile-center is-layout-flow wp-container-core-group-layout-10 wp-block-group-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-                            <div style="line-height:1;text-align:right" class="wp-block-lemmony-companion-counter"><span class="lemmony-counter-wrapper" data-start="0" data-end="420690000000000" data-duration="3"><span class="lemmony-counter-number">0</span><span class="lemmony-counter-suffix"></span></span>
+                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-layout-18 wp-block-column-is-layout-flow"
+                        style="flex-basis:30%">
+                        <div class="wp-block-group lemmony-mobile-center is-layout-flow wp-container-core-group-layout-10 wp-block-group-is-layout-flow"
+                            style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+                            <div style="line-height:1;text-align:right" class="wp-block-lemmony-companion-counter"><span
+                                    class="lemmony-counter-wrapper" data-start="0" data-end="420690000000000"
+                                    data-duration="3"><span class="lemmony-counter-number">0</span><span
+                                        class="lemmony-counter-suffix"></span></span>
                             </div>
 
 
 
-                            <h3 class="wp-block-heading has-text-align-right has-small-plus-font-size" style="font-style:normal;font-weight:600;line-height:1.6">Total Supply</h3>
+                            <h3 class="wp-block-heading has-text-align-right has-small-plus-font-size"
+                                style="font-style:normal;font-weight:600;line-height:1.6">Total Supply</h3>
                         </div>
 
 
 
-                        <div class="wp-block-group lemmony-mobile-justify-center has-global-padding is-content-justification-right is-layout-constrained wp-container-core-group-layout-11 wp-block-group-is-layout-constrained">
-                            <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--30)" />
+                        <div
+                            class="wp-block-group lemmony-mobile-justify-center has-global-padding is-content-justification-right is-layout-constrained wp-container-core-group-layout-11 wp-block-group-is-layout-constrained">
+                            <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"
+                                style="margin-top:var(--wp--preset--spacing--30)" />
 
 
 
-                            <div style="line-height:1;text-align:right" class="wp-block-lemmony-companion-counter"><span class="lemmony-counter-wrapper" data-start="0" data-end="95" data-duration="3"><span class="lemmony-counter-number">0</span><span class="lemmony-counter-suffix">%</span></span>
+                            <div style="line-height:1;text-align:right" class="wp-block-lemmony-companion-counter"><span
+                                    class="lemmony-counter-wrapper" data-start="0" data-end="95" data-duration="3"><span
+                                        class="lemmony-counter-number">0</span><span
+                                        class="lemmony-counter-suffix">%</span></span>
                             </div>
 
 
 
-                            <h3 class="wp-block-heading has-text-align-right has-small-plus-font-size" style="font-style:normal;font-weight:600;line-height:1.6">Locked Forever</h3>
+                            <h3 class="wp-block-heading has-text-align-right has-small-plus-font-size"
+                                style="font-style:normal;font-weight:600;line-height:1.6">Locked Forever</h3>
 
 
 
-                            <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--30)" />
+                            <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"
+                                style="margin-top:var(--wp--preset--spacing--30)" />
                         </div>
 
 
 
-                        <div class="wp-block-group lemmony-mobile-justify-center has-global-padding is-content-justification-right is-layout-constrained wp-container-core-group-layout-12 wp-block-group-is-layout-constrained">
-                            <div style="line-height:1;text-align:right" class="wp-block-lemmony-companion-counter"><span class="lemmony-counter-wrapper" data-start="0" data-end="100" data-duration="3"><span class="lemmony-counter-number">0</span><span class="lemmony-counter-suffix">%</span></span>
+                        <div
+                            class="wp-block-group lemmony-mobile-justify-center has-global-padding is-content-justification-right is-layout-constrained wp-container-core-group-layout-12 wp-block-group-is-layout-constrained">
+                            <div style="line-height:1;text-align:right" class="wp-block-lemmony-companion-counter"><span
+                                    class="lemmony-counter-wrapper" data-start="0" data-end="100"
+                                    data-duration="3"><span class="lemmony-counter-number">0</span><span
+                                        class="lemmony-counter-suffix">%</span></span>
                             </div>
 
 
 
-                            <h3 class="wp-block-heading has-text-align-right has-small-plus-font-size" style="font-style:normal;font-weight:600;line-height:1.6">Community Driven</h3>
+                            <h3 class="wp-block-heading has-text-align-right has-small-plus-font-size"
+                                style="font-style:normal;font-weight:600;line-height:1.6">Community Driven</h3>
 
 
 
-                            <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:0px" />
+                            <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"
+                                style="margin-top:var(--wp--preset--spacing--30);margin-bottom:0px" />
                         </div>
                     </div>
                 </div>
@@ -3250,446 +3357,65 @@
 
 
 
-            <div class="wp-block-columns alignwide lemmony-mobile-center is-layout-flex wp-container-core-columns-layout-8 wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-                <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:4%"></div>
 
 
 
-                <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                    <h2 class="wp-block-heading has-large-plus-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">Ready to buy a few POOH?</h2>
-                </div>
+          
 
 
 
-                <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="border-right-color:var(--wp--preset--color--border);border-right-width:1px;flex-basis:5%"></div>
-
-
-
-                <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:6%"></div>
-
-
-
-                <div class="wp-block-column is-layout-flow wp-container-core-column-layout-23 wp-block-column-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-                    <p class="has-small-plus-font-size">Download an Ethereum wallet like MetaMask. It&#8217;s free on the app store or google play. Desktop users can download the MetaMask chrome extension.</p>
-
-
-
-                    <div class="wp-block-group is-content-justification-left is-nowrap is-layout-flex wp-container-core-group-layout-14 wp-block-group-is-layout-flex">
-                        <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-layout-4 wp-block-buttons-is-layout-flex" style="text-decoration:underline"></div>
-                    </div>
-                </div>
-
-
-
-                <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:2%"></div>
-            </div>
-
-
-
-            <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-layout-15 wp-block-columns-is-layout-flex" id="how-to-buy" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
-                <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:50%">
-                    <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center lemmony-aspect-square" style="padding-top:240px;padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img width="1024" height="1024" class="wp-block-cover__image-background wp-image-57" alt="" src="https://pooh.money/wp-content/uploads/2023/04/Pooh-computer-uni.png"
-                            data-object-fit="cover" srcset="https://pooh.money/wp-content/uploads/2023/04/Pooh-computer-uni.png 1024w, https://pooh.money/wp-content/uploads/2023/04/Pooh-computer-uni-300x300.png 300w, https://pooh.money/wp-content/uploads/2023/04/Pooh-computer-uni-150x150.png 150w, https://pooh.money/wp-content/uploads/2023/04/Pooh-computer-uni-768x768.png 768w"
-                            sizes="(max-width: 1024px) 100vw, 1024px" />
-                        <div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
-                            <p class="has-text-align-center has-medium-font-size"></p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-layout-26 wp-block-column-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:3%"></div>
-
-
-
-                <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-                    <div class="wp-block-columns is-layout-flex wp-container-core-columns-layout-14 wp-block-columns-is-layout-flex">
-                        <div class="wp-block-column is-layout-flow wp-container-core-column-layout-37 wp-block-column-is-layout-flow">
-                            <h5 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:600;line-height:1.6">Next Steps</h5>
-
-
-
-                            <h2 class="wp-block-heading has-large-plus-font-size" style="margin-top:var(--wp--preset--spacing--10);line-height:1.3">Buying POOH</h2>
-
-
-
-                            <div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-layout-15 wp-block-group-is-layout-constrained">
-                                <div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile is-layout-flex wp-container-core-columns-layout-9 wp-block-columns-is-layout-flex">
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:40px">
-                                        <div class="wp-block-lemmony-companion-icon has-primary-color has-text-color has-small-plus-font-size lemmony-animation" style="--lemmony-animation-name:lemmonyFadeInUp;animation-duration:var(--lemmony-speed-xfast)">
-                                            <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-reactroot=""><path d="M16,30.5C8.005,30.5,1.5,23.995,1.5,16C1.5,8.005,8.005,1.5,16,1.5S30.5,8.005,30.5,16C30.5,23.995,23.995,30.5,16,30.5z M16,3.5C9.107,3.5,3.5,9.107,3.5,16c0,6.893,5.607,12.5,12.5,12.5S28.5,22.893,28.5,16C28.5,9.107,22.893,3.5,16,3.5z M14.089,20.821L14.089,20.821c-0.265,0-0.52-0.105-0.707-0.293l-3.82-3.821c-0.391-0.391-0.391-1.024,0-1.414 c0.391-0.391,1.023-0.391,1.414,0l3.113,3.114l6.934-6.934c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-7.641,7.641 C14.609,20.715,14.354,20.821,14.089,20.821z"></path></svg></div>
-                                        </div>
-                                    </div>
-
-
-
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
-                                        <p class="has-small-plus-font-size lemmony-animation" style="font-style:normal;font-weight:600;--lemmony-animation-name:lemmonyFadeInUp;animation-duration:var(--lemmony-speed-xfast)">Make sure your wallet has ETH. Buy ETH directly on Metamask or transfer it from another wallet or exchange.</p>
-                                    </div>
-                                </div>
-
-
-
-                                <div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile is-layout-flex wp-container-core-columns-layout-10 wp-block-columns-is-layout-flex">
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:40px">
-                                        <div class="wp-block-lemmony-companion-icon has-primary-color has-text-color has-small-plus-font-size lemmony-animation" style="--lemmony-animation-name:lemmonyFadeInUp;animation-duration:var(--lemmony-speed-xfast);animation-delay:var(--lemmony-delay-xsmall)">
-                                            <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-reactroot=""><path d="M16,30.5C8.005,30.5,1.5,23.995,1.5,16C1.5,8.005,8.005,1.5,16,1.5S30.5,8.005,30.5,16C30.5,23.995,23.995,30.5,16,30.5z M16,3.5C9.107,3.5,3.5,9.107,3.5,16c0,6.893,5.607,12.5,12.5,12.5S28.5,22.893,28.5,16C28.5,9.107,22.893,3.5,16,3.5z M14.089,20.821L14.089,20.821c-0.265,0-0.52-0.105-0.707-0.293l-3.82-3.821c-0.391-0.391-0.391-1.024,0-1.414 c0.391-0.391,1.023-0.391,1.414,0l3.113,3.114l6.934-6.934c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-7.641,7.641 C14.609,20.715,14.354,20.821,14.089,20.821z"></path></svg></div>
-                                        </div>
-                                    </div>
-
-
-
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
-                                        <p class="has-small-plus-font-size lemmony-animation" style="font-style:normal;font-weight:600;--lemmony-animation-name:lemmonyFadeInUp;animation-duration:var(--lemmony-speed-xfast);animation-delay:var(--lemmony-delay-xsmall)">Go to Uniswap. Connect your wallet and paste in the POOH contract address, select POOH and confirm. MetaMask will then prompt you for confirmation.</p>
-                                    </div>
-                                </div>
-
-
-
-                                <div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile is-layout-flex wp-container-core-columns-layout-11 wp-block-columns-is-layout-flex">
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:40px">
-                                        <div class="wp-block-lemmony-companion-icon has-primary-color has-text-color has-small-plus-font-size lemmony-animation" style="--lemmony-animation-name:lemmonyFadeInUp;animation-duration:var(--lemmony-speed-xfast);animation-delay:var(--lemmony-delay-small)">
-                                            <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-reactroot=""><path d="M16,30.5C8.005,30.5,1.5,23.995,1.5,16C1.5,8.005,8.005,1.5,16,1.5S30.5,8.005,30.5,16C30.5,23.995,23.995,30.5,16,30.5z M16,3.5C9.107,3.5,3.5,9.107,3.5,16c0,6.893,5.607,12.5,12.5,12.5S28.5,22.893,28.5,16C28.5,9.107,22.893,3.5,16,3.5z M14.089,20.821L14.089,20.821c-0.265,0-0.52-0.105-0.707-0.293l-3.82-3.821c-0.391-0.391-0.391-1.024,0-1.414 c0.391-0.391,1.023-0.391,1.414,0l3.113,3.114l6.934-6.934c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-7.641,7.641 C14.609,20.715,14.354,20.821,14.089,20.821z"></path></svg></div>
-                                        </div>
-                                    </div>
-
-
-
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
-                                        <p class="has-small-plus-font-size lemmony-animation" style="font-style:normal;font-weight:600;--lemmony-animation-name:lemmonyFadeInUp;animation-duration:var(--lemmony-speed-xfast);animation-delay:var(--lemmony-delay-small)">Swap ETH for POOH. Default Uniswap settings are fine so no need to adjust slippage settings.</p>
-                                    </div>
-                                </div>
-
-
-
-                                <div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile is-layout-flex wp-container-core-columns-layout-12 wp-block-columns-is-layout-flex">
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:40px">
-                                        <div class="wp-block-lemmony-companion-icon has-primary-color has-text-color has-small-plus-font-size lemmony-animation" style="--lemmony-animation-name:lemmonyFadeInUp;animation-duration:var(--lemmony-speed-xfast);animation-delay:var(--lemmony-delay-medium)">
-                                            <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-reactroot=""><path d="M16,30.5C8.005,30.5,1.5,23.995,1.5,16C1.5,8.005,8.005,1.5,16,1.5S30.5,8.005,30.5,16C30.5,23.995,23.995,30.5,16,30.5z M16,3.5C9.107,3.5,3.5,9.107,3.5,16c0,6.893,5.607,12.5,12.5,12.5S28.5,22.893,28.5,16C28.5,9.107,22.893,3.5,16,3.5z M14.089,20.821L14.089,20.821c-0.265,0-0.52-0.105-0.707-0.293l-3.82-3.821c-0.391-0.391-0.391-1.024,0-1.414 c0.391-0.391,1.023-0.391,1.414,0l3.113,3.114l6.934-6.934c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-7.641,7.641 C14.609,20.715,14.354,20.821,14.089,20.821z"></path></svg></div>
-                                        </div>
-                                    </div>
-
-
-
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
-                                        <p class="has-small-plus-font-size lemmony-animation" style="font-style:normal;font-weight:600;--lemmony-animation-name:lemmonyFadeInUp;animation-duration:var(--lemmony-speed-xfast);animation-delay:var(--lemmony-delay-medium)">Vibe and Chill. </p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile is-layout-flex wp-container-core-columns-layout-13 wp-block-columns-is-layout-flex" style="margin-top:var(--wp--preset--spacing--50)">
-                                <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:40px">
-                                    <div class="wp-block-lemmony-companion-icon lemmony-animation lemmonyFadeIn has-small-plus-font-size lemmony-animation" style="--lemmony-animation-name:lemmonyFadeIn;animation-duration:var(--lemmony-speed-fast);animation-delay:var(--lemmony-delay-large)">
-                                        <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-reactroot=""><path d="M16,30.5C8.005,30.5,1.5,23.995,1.5,16S8.005,1.5,16,1.5S30.5,8.005,30.5,16S23.995,30.5,16,30.5z M16,3.5 C9.107,3.5,3.5,9.107,3.5,16S9.107,28.5,16,28.5S28.5,22.893,28.5,16S22.893,3.5,16,3.5z M16.174,23.619c-0.552,0-1-0.447-1-1 v-0.101c0-0.553,0.448-1,1-1s1,0.447,1,1v0.101C17.174,23.172,16.726,23.619,16.174,23.619z M16.174,18.814c-0.552,0-1-0.447-1-1 c0-1.324,0.803-2.54,2.046-3.098c0.922-0.413,1.517-1.331,1.517-2.34c0-0.665-0.272-1.302-0.767-1.796 c-0.493-0.494-1.131-0.766-1.795-0.766c0,0,0,0,0,0c-1.414,0-2.563,1.149-2.563,2.562c0,0.552-0.448,1-1,1s-1-0.448-1-1 c0-2.516,2.047-4.562,4.562-4.562c0,0,0.001,0,0.001,0c1.198,0,2.338,0.48,3.21,1.352c0.871,0.872,1.352,2.012,1.352,3.21 c0,1.796-1.06,3.431-2.699,4.165c-0.532,0.239-0.863,0.727-0.863,1.272C17.174,18.367,16.726,18.814,16.174,18.814z"></path></svg></div>
-                                    </div>
-                                </div>
-
-
-
-                                <div class="wp-block-column is-vertically-aligned-center has-small-font-size is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:85%">
-                                    <p class="lemmony-animation lemmonyFadeIn has-small-font-size lemmony-animation" style="font-style:normal;font-weight:400;--lemmony-animation-name:lemmonyFadeIn;animation-duration:var(--lemmony-speed-fast);animation-delay:var(--lemmony-delay-large)">Questions? Visit the <a rel="noreferrer noopener" href="https://metamask.io/faqs/" data-type="URL" data-id="https://metamask.io/faqs/" target="_blank">MetaMask FAQ</a> or <a href="https://uniswap.org/faq" data-type="URL"
-                                            data-id="https://uniswap.org/faq" target="_blank" rel="noreferrer noopener">Uniswap FAQ</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-layout-16 wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
-                <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-layout-39 wp-block-column-is-layout-flow">
-                    <h5 class="wp-block-heading has-small-font-size lemmony-animation" style="font-style:normal;font-weight:600;line-height:1.6;--lemmony-animation-name:lemmonyFadeInUp">A simple mission</h5>
-
-
-
-                    <h2 class="wp-block-heading has-large-plus-font-size lemmony-animation" style="margin-top:var(--wp--preset--spacing--10);line-height:1.3;--lemmony-animation-name:lemmonyFadeInUp">Make POOH the most widely held meme coin.</h2>
-
-
-
-                    <p class="has-small-plus-font-size lemmony-animation" style="--lemmony-animation-name:lemmonyFadeInUp">Sound crazy? Dog coins combined have over 5 million wallets holding a balance. <br><br>Together, we can easily beat that! </p>
-
-
-
-                    <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex" style="margin-top:var(--wp--preset--spacing--50)"></div>
-                </div>
-
-
-
-                <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:3%"></div>
-
-
-
-                <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-                    <div class="wp-block-cover has-custom-content-position is-position-bottom-center lemmony-aspect-square lemmony-parallax" style="padding-top:2vw;padding-right:6vw;padding-bottom:60px;padding-left:6vw"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img width="1300" height="1300" class="wp-block-cover__image-background wp-image-111" alt="" src="https://pooh.money/wp-content/uploads/2023/04/pooh-rocket-1.png"
-                            data-object-fit="cover" srcset="https://pooh.money/wp-content/uploads/2023/04/pooh-rocket-1.png 1300w, https://pooh.money/wp-content/uploads/2023/04/pooh-rocket-1-300x300.png 300w, https://pooh.money/wp-content/uploads/2023/04/pooh-rocket-1-1024x1024.png 1024w, https://pooh.money/wp-content/uploads/2023/04/pooh-rocket-1-150x150.png 150w, https://pooh.money/wp-content/uploads/2023/04/pooh-rocket-1-768x768.png 768w"
-                            sizes="(max-width: 1300px) 100vw, 1300px" />
-                        <div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
-                            <div class="wp-block-group has-background-background-color has-background lemmony-animation is-nowrap is-layout-flex wp-container-core-group-layout-17 wp-block-group-is-layout-flex" style="border-radius:24px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);--lemmony-animation-name:lemmonyFadeInUp;animation-duration:var(--lemmony-speed-fast);animation-delay:var(--lemmony-delay-xsmall)">
-                                <figure class="wp-block-image size-large is-resized has-custom-border"><img width="1024" height="911" src="https://pooh.money/wp-content/uploads/2023/04/Screen-Shot-2023-04-22-at-2.43.59-PM-1024x911.png" alt="" class="wp-image-108" style="border-radius:100px;width:42px;height:37px" srcset="https://pooh.money/wp-content/uploads/2023/04/Screen-Shot-2023-04-22-at-2.43.59-PM-1024x911.png 1024w, https://pooh.money/wp-content/uploads/2023/04/Screen-Shot-2023-04-22-at-2.43.59-PM-300x267.png 300w, https://pooh.money/wp-content/uploads/2023/04/Screen-Shot-2023-04-22-at-2.43.59-PM-768x683.png 768w, https://pooh.money/wp-content/uploads/2023/04/Screen-Shot-2023-04-22-at-2.43.59-PM.png 1102w"
-                                        sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-                                <div class="wp-block-group has-body-color has-text-color has-global-padding is-layout-constrained wp-container-core-group-layout-16 wp-block-group-is-layout-constrained">
-                                    <h2 class="wp-block-heading has-small-plus-font-size">Mission Control</h2>
-
-
-
-                                    <p class="has-small-font-size" style="font-style:normal;font-weight:400;line-height:1.6">POOH has reached escape velocity</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="wp-block-group alignfull has-body-alt-color has-background-alt-background-color has-text-color has-background has-global-padding is-layout-constrained wp-container-core-group-layout-23 wp-block-group-is-layout-constrained" id="roadmap" style="border-radius:0px;margin-top:0;margin-bottom:0;padding-top:140px;padding-right:7vw;padding-left:7vw">
-                <h2 class="wp-block-heading has-text-align-center has-body-alt-color has-text-color has-medium-font-size lemmony-animation" style="font-style:normal;font-weight:400;line-height:1.4;--lemmony-animation-name:lemmonyFadeInUp">ROADMAP</h2>
-
-
-
-                <h2 class="wp-block-heading has-text-align-center has-huge-font-size lemmony-animation" style="line-height:1.3;--lemmony-animation-name:lemmonyFadeInUp">Where we&#8217;re going, we don&#8217;t need roads</h2>
-
-
-
-                <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-17 wp-block-columns-is-layout-flex" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)">
-                    <div class="wp-block-column is-layout-flow wp-container-core-column-layout-42 wp-block-column-is-layout-flow" style="flex-basis:100%">
-                        <div class="wp-block-group is-style-default has-border-color is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-layout-18 wp-block-group-is-layout-flex" style="border-color:#ffffff2b;border-width:1px;border-radius:25px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-                            <div class="wp-block-lemmony-companion-icon has-medium-plus-font-size">
-                                <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-reactroot=""><path d="M15.996,28.578c-0.274,0-0.548-0.057-0.804-0.169C9.84,26.039,3.509,21.04,1.791,14.113C0.771,10,2.526,5.801,5.966,4.131 c3.256-1.583,6.941-0.477,10.031,2.949c3.094-3.428,6.784-4.53,10.039-2.948c3.438,1.671,5.192,5.87,4.173,9.981l0,0 c-1.718,6.93-8.053,11.928-13.408,14.296C16.545,28.521,16.271,28.578,15.996,28.578z M8.962,5.437 c-0.729,0-1.443,0.162-2.123,0.492c-2.595,1.261-3.902,4.5-3.107,7.702c1.545,6.232,7.575,10.87,12.269,12.948 c4.687-2.076,10.72-6.713,12.266-12.948l0,0c0.794-3.201-0.513-6.44-3.106-7.701c-2.629-1.28-5.759-0.037-8.376,3.321l-0.789,1.013 l-0.789-1.013C13.271,6.763,11.051,5.437,8.962,5.437z"></path></svg></div>
-                            </div>
-
-
-
-                            <p class="has-body-alt-color has-text-color has-small-font-size" style="font-style:normal;font-weight:700">1. Create</p>
-                        </div>
-                    </div>
-
-
-
-                    <div class="wp-block-column is-layout-flow wp-container-core-column-layout-43 wp-block-column-is-layout-flow" style="flex-basis:100%">
-                        <div class="wp-block-group is-style-default has-border-color is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-layout-19 wp-block-group-is-layout-flex" style="border-color:#ffffff2b;border-width:1px;border-radius:25px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-                            <div class="wp-block-lemmony-companion-icon has-medium-plus-font-size">
-                                <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-reactroot=""><path d="M16.001,30.69c-0.797,0-1.593-0.234-2.273-0.703l-2.384-1.646c-0.234-0.162-0.496-0.271-0.778-0.322l-2.848-0.521 c-1.625-0.298-2.917-1.589-3.214-3.214l-0.521-2.85c-0.051-0.276-0.162-0.545-0.322-0.776l-1.646-2.384 c-0.939-1.359-0.939-3.186,0-4.545c0,0,0,0,0,0l1.646-2.384c0.162-0.234,0.27-0.496,0.321-0.775l0.522-2.85 c0.297-1.625,1.588-2.917,3.214-3.215l2.85-0.521c0.281-0.051,0.542-0.159,0.776-0.321l2.384-1.646c1.36-0.939,3.187-0.939,4.546,0 l2.384,1.646c0.231,0.16,0.5,0.271,0.776,0.321l2.85,0.521c1.625,0.298,2.916,1.59,3.214,3.215l0.521,2.849 c0.052,0.281,0.16,0.542,0.322,0.777l1.646,2.383c0.938,1.36,0.938,3.187,0,4.546l-1.646,2.384 c-0.162,0.233-0.271,0.496-0.322,0.778l-0.521,2.848c-0.298,1.625-1.589,2.917-3.214,3.214l-2.85,0.521 c-0.28,0.052-0.543,0.16-0.776,0.322l-2.384,1.646C17.593,30.456,16.797,30.69,16.001,30.69z M3.66,14.864L3.66,14.864 c-0.469,0.68-0.469,1.594,0,2.273l1.646,2.384c0.325,0.471,0.541,0.993,0.643,1.554l0.521,2.849 c0.149,0.812,0.794,1.458,1.607,1.607l2.85,0.521c0.562,0.104,1.084,0.319,1.552,0.643l2.384,1.646c0.68,0.472,1.595,0.471,2.272,0 l2.384-1.646c0.469-0.322,0.99-0.539,1.552-0.643l2.852-0.521c0.812-0.149,1.457-0.795,1.606-1.607l0.521-2.849 c0.104-0.563,0.32-1.085,0.643-1.554l1.646-2.384c0.47-0.679,0.469-1.593,0-2.273l-1.646-2.383 c-0.323-0.468-0.539-0.99-0.643-1.551L25.53,8.078c-0.149-0.813-0.795-1.459-1.606-1.607l-2.85-0.521 c-0.562-0.103-1.084-0.319-1.554-0.644L17.136,3.66c-0.679-0.469-1.593-0.468-2.273,0l-2.383,1.646 c-0.47,0.325-0.992,0.541-1.554,0.644L8.078,6.471C7.265,6.619,6.62,7.265,6.471,8.078l-0.522,2.85 c-0.102,0.56-0.318,1.083-0.642,1.552L3.66,14.864z M12.172,20.829c-0.256,0-0.512-0.098-0.707-0.293 c-0.391-0.391-0.391-1.023,0-1.414l7.656-7.656c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-7.656,7.656 C12.684,20.731,12.428,20.829,12.172,20.829z M19.552,20.753c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414 l0.2-0.2c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-0.2,0.2C20.064,20.655,19.808,20.753,19.552,20.753z M12.294,13.494c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414l0.2-0.2c0.391-0.391,1.023-0.391,1.414,0 s0.391,1.023,0,1.414l-0.2,0.2C12.805,13.396,12.549,13.494,12.294,13.494z"></path></svg></div>
-                            </div>
-
-
-
-                            <p class="has-body-alt-color has-text-color has-small-font-size" style="font-style:normal;font-weight:700">2.Stealth Launch</p>
-                        </div>
-                    </div>
-
-
-
-                    <div class="wp-block-column is-layout-flow wp-container-core-column-layout-44 wp-block-column-is-layout-flow" style="flex-basis:100%">
-                        <div class="wp-block-group has-border-color is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-layout-20 wp-block-group-is-layout-flex" style="border-color:#ffffff2b;border-width:1px;border-radius:25px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-                            <div class="wp-block-lemmony-companion-icon has-medium-plus-font-size">
-                                <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-reactroot=""><path d="M11.448,27.938c-2.67,0-5.341-0.688-7.723-2.063c-0.495-0.286-0.939-0.645-1.32-1.064c-0.86-0.948-1.127-2.253-0.713-3.491 c0.429-1.279,1.511-2.23,2.826-2.48l0.141-0.026c4.599-0.877,9.26-0.863,13.856,0.038c1.278,0.25,2.298,1.138,2.727,2.373 c0.42,1.21,0.178,2.509-0.649,3.473c-0.404,0.471-0.882,0.867-1.421,1.179C16.789,27.249,14.118,27.938,11.448,27.938z M4.89,20.803c-0.722,0.138-1.146,0.685-1.302,1.15c-0.087,0.261-0.232,0.929,0.298,1.513c0.242,0.267,0.524,0.494,0.839,0.677 c4.146,2.393,9.299,2.393,13.446-0.001c0.343-0.197,0.646-0.45,0.903-0.749c0.363-0.424,0.465-0.976,0.277-1.514 c-0.192-0.556-0.649-0.954-1.222-1.066c-4.343-0.851-8.751-0.864-13.099-0.036L4.89,20.803z M24.569,25.372 c-0.498,0-0.929-0.37-0.991-0.877c-0.068-0.548,0.321-1.048,0.869-1.115c1.176-0.146,2.293-0.521,3.32-1.113 c0.242-0.14,0.451-0.325,0.618-0.551c0.171-0.229,0.115-0.476,0.066-0.603c-0.08-0.206-0.28-0.448-0.603-0.512 c-1.098-0.215-2.206-0.351-3.308-0.405c-0.552-0.028-0.977-0.497-0.949-1.049c0.028-0.553,0.505-0.989,1.049-0.949 c1.197,0.061,2.401,0.208,3.581,0.438c0.949,0.186,1.747,0.857,2.095,1.756c0.331,0.855,0.209,1.797-0.326,2.517 c-0.332,0.446-0.743,0.812-1.224,1.09c-1.261,0.727-2.631,1.187-4.074,1.365C24.651,25.37,24.61,25.372,24.569,25.372z M23.657,15.53c-2.323,0-4.214-1.89-4.214-4.214s1.891-4.214,4.214-4.214s4.214,1.89,4.214,4.214S25.98,15.53,23.657,15.53z M23.657,9.102c-1.221,0-2.214,0.993-2.214,2.214s0.993,2.214,2.214,2.214s2.214-0.993,2.214-2.214S24.877,9.102,23.657,9.102z M11.319,15.53c-3.162,0-5.734-2.572-5.734-5.734s2.572-5.734,5.734-5.734s5.733,2.572,5.733,5.734S14.48,15.53,11.319,15.53z M11.319,6.062c-2.059,0-3.734,1.675-3.734,3.734s1.675,3.734,3.734,3.734s3.734-1.675,3.734-3.734S13.378,6.062,11.319,6.062z"></path></svg></div>
-                            </div>
-
-
-
-                            <p class="has-body-alt-color has-text-color has-small-font-size" style="font-style:normal;font-weight:700">3.Grow Holders</p>
-                        </div>
-                    </div>
-
-
-
-                    <div class="wp-block-column is-layout-flow wp-container-core-column-layout-45 wp-block-column-is-layout-flow" style="flex-basis:100%">
-                        <div class="wp-block-group has-border-color is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-layout-21 wp-block-group-is-layout-flex" style="border-color:#ffffff2b;border-width:1px;border-radius:25px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-                            <div class="wp-block-lemmony-companion-icon has-medium-plus-font-size">
-                                <div class="lemmony-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-reactroot=""><path d="M14.228,30.5c-0.109,0-0.22-0.018-0.328-0.055c-0.433-0.15-0.708-0.576-0.668-1.033l0.904-10.288H7.542 c-0.367,0-0.705-0.201-0.88-0.524c-0.174-0.323-0.158-0.716,0.043-1.023L16.931,1.952c0.251-0.384,0.731-0.548,1.164-0.397 c0.434,0.15,0.709,0.576,0.669,1.032L17.86,12.87h6.599c0.367,0,0.705,0.201,0.88,0.524s0.158,0.716-0.043,1.023l-10.23,15.63 C14.876,30.336,14.558,30.5,14.228,30.5z M9.391,17.124h5.836c0.28,0,0.548,0.118,0.737,0.324c0.189,0.207,0.283,0.484,0.259,0.764 l-0.651,7.407l7.036-10.75h-5.841c-0.28,0-0.548-0.118-0.737-0.325c-0.189-0.207-0.283-0.483-0.259-0.763l0.651-7.401L9.391,17.124 z"></path></svg></div>
-                            </div>
-
-
-
-                            <p class="has-body-alt-color has-text-color has-small-font-size" style="font-style:normal;font-weight:700">4.Trend</p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow">
-                    <div class="wp-block-cover alignwide lemmony-aspect-16_9 lemmony--mb-large wp-duotone-unset-2" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:300px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img width="1500" height="874" class="wp-block-cover__image-background wp-image-72" alt="" src="https://pooh.money/wp-content/uploads/2023/04/Pooh-road-2-1.png"
-                            data-object-fit="cover" srcset="https://pooh.money/wp-content/uploads/2023/04/Pooh-road-2-1.png 1500w, https://pooh.money/wp-content/uploads/2023/04/Pooh-road-2-1-300x175.png 300w, https://pooh.money/wp-content/uploads/2023/04/Pooh-road-2-1-1024x597.png 1024w, https://pooh.money/wp-content/uploads/2023/04/Pooh-road-2-1-768x447.png 768w"
-                            sizes="(max-width: 1500px) 100vw, 1500px" />
-                        <div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
-                            <p class="has-text-align-center has-large-font-size lemmony-animation" style="--lemmony-animation-name:lemmonyFadeIn">Join the #POOHcrew and help build the future of POOH</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" style="margin-top:0;margin-bottom:0;padding-top:9.7vw">
+            <div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow"
+                style="margin-top:0;margin-bottom:0;padding-top:9.7vw">
                 <div style="height:28px" aria-hidden="true" class="wp-block-spacer"></div>
             </div>
 
 
 
-            <div class="wp-block-group alignwide has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-bottom:160px">
-                <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-22 wp-block-columns-is-layout-flex">
-                    <div class="wp-block-column is-layout-flow wp-container-core-column-layout-55 wp-block-column-is-layout-flow">
-                        <h5 class="wp-block-heading has-text-align-center has-small-font-size" style="font-style:normal;font-weight:600;line-height:1.6">Driven by the community</h5>
 
+            <div class="wp-block-group alignwide is-layout-flow wp-container-core-group-layout-30 wp-block-group-is-layout-flow"
+                style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-bottom:128px">
+                <div
+                    class="wp-block-group is-layout-flow wp-container-core-group-layout-29 wp-block-group-is-layout-flow">
+                    <h5 class="wp-block-heading has-small-font-size"
+                        style="font-style:normal;font-weight:600;line-height:1.6">Right Click, Save As.</h5>
 
 
-                        <h2 class="wp-block-heading has-text-align-center has-large-plus-font-size" style="margin-top:var(--wp--preset--spacing--10);margin-right:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);line-height:1.3">Expect Nothing. Expect Surprises.</h2>
 
-
-
-                        <div class="wp-block-columns is-layout-flex wp-container-core-columns-layout-21 wp-block-columns-is-layout-flex" style="padding-top:var(--wp--preset--spacing--60)">
-                            <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                                <div class="wp-block-group is-style-hover-bg has-global-padding is-layout-constrained wp-container-core-group-layout-25 wp-block-group-is-layout-constrained" style="border-radius:15px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
-                                    <div class="wp-block-columns is-not-stacked-on-mobile is-layout-flex wp-container-core-columns-layout-18 wp-block-columns-is-layout-flex">
-                                        <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:60px">
-                                            <figure class="wp-block-image size-full is-style-rounded"><img width="150" height="150" src="https://pooh.money/wp-content/uploads/2023/04/Pooh-icon-small-1.png" alt="" class="wp-image-54" /></figure>
-                                        </div>
-
-
-
-                                        <div class="wp-block-column is-layout-flow wp-container-core-column-layout-47 wp-block-column-is-layout-flow" style="flex-basis:66.66%">
-                                            <h3 class="wp-block-heading has-small-plus-font-size" style="line-height:1.6">Launch &amp; Promotion</h3>
-                                        </div>
-                                    </div>
-
-
-
-                                    <ul>
-                                        <li>Launch POOH on Uniswap and other popular decentralized exchanges.</li>
-
-
-
-                                        <li>Announce POOH on social media channels like Twitter and Discord and crypto forums like Bitcoin Talk and Reddit</li>
-
-
-
-                                        <li>Early adopters are incentivized and rewarded for being early and then helping spread the word.</li>
-
-
-
-                                        <li>Approach influencers and crypto publications to promote and build awareness of POOH.</li>
-
-
-
-                                        <li>List on popular price tracking websites like Coinmarketcap and CoinGecko.</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-
-
-                            <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                                <div class="wp-block-group is-style-hover-bg has-midground-background-color has-background has-global-padding is-layout-constrained wp-container-core-group-layout-26 wp-block-group-is-layout-constrained" style="border-radius:15px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
-                                    <div class="wp-block-columns is-not-stacked-on-mobile is-layout-flex wp-container-core-columns-layout-19 wp-block-columns-is-layout-flex" style="margin-bottom:0px">
-                                        <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:60px">
-                                            <figure class="wp-block-image size-full is-style-rounded"><img width="150" height="150" src="https://pooh.money/wp-content/uploads/2023/04/Pooh-icon-small-1.png" alt="" class="wp-image-54" /></figure>
-                                        </div>
-
-
-
-                                        <div class="wp-block-column is-layout-flow wp-container-core-column-layout-50 wp-block-column-is-layout-flow" style="flex-basis:66.66%">
-                                            <h3 class="wp-block-heading has-small-plus-font-size" style="line-height:1.6">Community Building &amp; Expansion</h3>
-                                        </div>
-                                    </div>
-
-
-
-                                    <ul>
-                                        <li>Engage with the POOH community through social media channels </li>
-
-
-
-                                        <li>Advocate for others to start their own POOH-focused community</li>
-
-
-
-                                        <li>Recommend top mobile apps and web wallets support POOH for easy access</li>
-
-
-
-                                        <li>Expand the use cases of POOH through partnerships with merchants or integration with other DeFi projects</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-
-
-                            <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                                <div class="wp-block-group is-style-hover-bg has-global-padding is-layout-constrained wp-container-core-group-layout-27 wp-block-group-is-layout-constrained" style="border-radius:15px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
-                                    <div class="wp-block-columns is-not-stacked-on-mobile is-layout-flex wp-container-core-columns-layout-20 wp-block-columns-is-layout-flex">
-                                        <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:60px">
-                                            <figure class="wp-block-image size-full is-style-rounded"><img width="150" height="150" src="https://pooh.money/wp-content/uploads/2023/04/Pooh-icon-small-1.png" alt="" class="wp-image-54" /></figure>
-                                        </div>
-
-
-
-                                        <div class="wp-block-column is-layout-flow wp-container-core-column-layout-53 wp-block-column-is-layout-flow" style="flex-basis:66.66%">
-                                            <h3 class="wp-block-heading has-small-plus-font-size" style="line-height:1.6">Long-Term Sustainability &amp; Growth</h3>
-                                        </div>
-                                    </div>
-
-
-
-                                    <ul>
-                                        <li>Continuously expand POOH availability to incentivize holding and reduce volatility</li>
-
-
-
-                                        <li>Diversify supporting teams and allocate resources towards further development and marketing efforts</li>
-
-
-
-                                        <li>Explore new opportunities for growth, such as launching on additional exchanges or integrating with other blockchain networks</li>
-
-
-
-                                        <li>Foster a strong and dedicated community to ensure long-term sustainability and growth of POOH</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="wp-block-group alignwide is-layout-flow wp-container-core-group-layout-30 wp-block-group-is-layout-flow" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-bottom:128px">
-                <div class="wp-block-group is-layout-flow wp-container-core-group-layout-29 wp-block-group-is-layout-flow">
-                    <h5 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:600;line-height:1.6">Right Click, Save As.</h5>
-
-
-
-                    <h2 class="wp-block-heading has-large-plus-font-size" style="line-height:1.3">Show your support!</h2>
+                    <h2 class="wp-block-heading has-large-plus-font-size" style="line-height:1.3">Show your support!
+                    </h2>
                 </div>
 
 
 
-                <div class="wp-block-columns is-layout-flex wp-container-core-columns-layout-25 wp-block-columns-is-layout-flex">
+                <div
+                    class="wp-block-columns is-layout-flex wp-container-core-columns-layout-25 wp-block-columns-is-layout-flex">
                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
                         <h5 class="wp-block-heading">Twitter Headers</h5>
 
 
 
-                        <div class="wp-block-columns is-layout-flex wp-container-core-columns-layout-23 wp-block-columns-is-layout-flex">
+                        <div
+                            class="wp-block-columns is-layout-flex wp-container-core-columns-layout-23 wp-block-columns-is-layout-flex">
                             <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                                <figure class="wp-block-image size-large"><a href="https://pooh.money/wp-content/uploads/2023/04/twitter-banner-1.png"><img width="1024" height="341" src="https://pooh.money/wp-content/uploads/2023/04/twitter-banner-1-1024x341.png" alt="" class="wp-image-116" srcset="https://pooh.money/wp-content/uploads/2023/04/twitter-banner-1-1024x341.png 1024w, https://pooh.money/wp-content/uploads/2023/04/twitter-banner-1-300x100.png 300w, https://pooh.money/wp-content/uploads/2023/04/twitter-banner-1-768x256.png 768w, https://pooh.money/wp-content/uploads/2023/04/twitter-banner-1.png 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+                                <figure class="wp-block-image size-large"><a
+                                        href="https://pooh.money/wp-content/uploads/2023/04/twitter-banner-1.png"><img
+                                            width="1024" height="341"
+                                            src="https://pooh.money/wp-content/uploads/2023/04/twitter-banner-1-1024x341.png"
+                                            alt="" class="wp-image-116"
+                                            srcset="https://pooh.money/wp-content/uploads/2023/04/twitter-banner-1-1024x341.png 1024w, https://pooh.money/wp-content/uploads/2023/04/twitter-banner-1-300x100.png 300w, https://pooh.money/wp-content/uploads/2023/04/twitter-banner-1-768x256.png 768w, https://pooh.money/wp-content/uploads/2023/04/twitter-banner-1.png 1500w"
+                                            sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
                             </div>
 
 
 
                             <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                                <figure class="wp-block-image size-large"><a href="https://pooh.money/wp-content/uploads/2023/04/twitter-banner-2.png"><img width="1024" height="341" src="https://pooh.money/wp-content/uploads/2023/04/twitter-banner-2-1024x341.png" alt="" class="wp-image-117" srcset="https://pooh.money/wp-content/uploads/2023/04/twitter-banner-2-1024x341.png 1024w, https://pooh.money/wp-content/uploads/2023/04/twitter-banner-2-300x100.png 300w, https://pooh.money/wp-content/uploads/2023/04/twitter-banner-2-768x256.png 768w, https://pooh.money/wp-content/uploads/2023/04/twitter-banner-2.png 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+                                <figure class="wp-block-image size-large"><a
+                                        href="https://pooh.money/wp-content/uploads/2023/04/twitter-banner-2.png"><img
+                                            width="1024" height="341"
+                                            src="https://pooh.money/wp-content/uploads/2023/04/twitter-banner-2-1024x341.png"
+                                            alt="" class="wp-image-117"
+                                            srcset="https://pooh.money/wp-content/uploads/2023/04/twitter-banner-2-1024x341.png 1024w, https://pooh.money/wp-content/uploads/2023/04/twitter-banner-2-300x100.png 300w, https://pooh.money/wp-content/uploads/2023/04/twitter-banner-2-768x256.png 768w, https://pooh.money/wp-content/uploads/2023/04/twitter-banner-2.png 1500w"
+                                            sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
                             </div>
                         </div>
                     </div>
@@ -3701,15 +3427,28 @@
 
 
 
-                        <div class="wp-block-columns is-layout-flex wp-container-core-columns-layout-24 wp-block-columns-is-layout-flex">
+                        <div
+                            class="wp-block-columns is-layout-flex wp-container-core-columns-layout-24 wp-block-columns-is-layout-flex">
                             <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                                <figure class="wp-block-image aligncenter size-full is-resized"><a href="https://pooh.money/wp-content/uploads/2023/04/Certified-Pooh-Twitter.png"><img width="1024" height="1024" src="https://pooh.money/wp-content/uploads/2023/04/Certified-Pooh-Twitter.png" alt="" class="wp-image-118" style="width:163px;height:163px" srcset="https://pooh.money/wp-content/uploads/2023/04/Certified-Pooh-Twitter.png 1024w, https://pooh.money/wp-content/uploads/2023/04/Certified-Pooh-Twitter-300x300.png 300w, https://pooh.money/wp-content/uploads/2023/04/Certified-Pooh-Twitter-150x150.png 150w, https://pooh.money/wp-content/uploads/2023/04/Certified-Pooh-Twitter-768x768.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+                                <figure class="wp-block-image aligncenter size-full is-resized"><a
+                                        href="https://pooh.money/wp-content/uploads/2023/04/Certified-Pooh-Twitter.png"><img
+                                            width="1024" height="1024"
+                                            src="https://pooh.money/wp-content/uploads/2023/04/Certified-Pooh-Twitter.png"
+                                            alt="" class="wp-image-118" style="width:163px;height:163px"
+                                            srcset="https://pooh.money/wp-content/uploads/2023/04/Certified-Pooh-Twitter.png 1024w, https://pooh.money/wp-content/uploads/2023/04/Certified-Pooh-Twitter-300x300.png 300w, https://pooh.money/wp-content/uploads/2023/04/Certified-Pooh-Twitter-150x150.png 150w, https://pooh.money/wp-content/uploads/2023/04/Certified-Pooh-Twitter-768x768.png 768w"
+                                            sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
                             </div>
 
 
 
                             <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                                <figure class="wp-block-image aligncenter size-full is-resized"><a href="https://pooh.money/wp-content/uploads/2023/04/Pooh-icon.png"><img width="1024" height="1024" src="https://pooh.money/wp-content/uploads/2023/04/Pooh-icon.png" alt="" class="wp-image-119" style="width:163px;height:163px" srcset="https://pooh.money/wp-content/uploads/2023/04/Pooh-icon.png 1024w, https://pooh.money/wp-content/uploads/2023/04/Pooh-icon-300x300.png 300w, https://pooh.money/wp-content/uploads/2023/04/Pooh-icon-150x150.png 150w, https://pooh.money/wp-content/uploads/2023/04/Pooh-icon-768x768.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+                                <figure class="wp-block-image aligncenter size-full is-resized"><a
+                                        href="https://pooh.money/wp-content/uploads/2023/04/Pooh-icon.png"><img
+                                            width="1024" height="1024"
+                                            src="https://pooh.money/wp-content/uploads/2023/04/Pooh-icon.png" alt=""
+                                            class="wp-image-119" style="width:163px;height:163px"
+                                            srcset="https://pooh.money/wp-content/uploads/2023/04/Pooh-icon.png 1024w, https://pooh.money/wp-content/uploads/2023/04/Pooh-icon-300x300.png 300w, https://pooh.money/wp-content/uploads/2023/04/Pooh-icon-150x150.png 150w, https://pooh.money/wp-content/uploads/2023/04/Pooh-icon-768x768.png 768w"
+                                            sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
                             </div>
                         </div>
                     </div>
@@ -3719,40 +3458,60 @@
 
 
         <footer class="site-footer wp-block-template-part">
-            <div class="wp-block-group alignfull lemmony-mobile-text-center has-body-alt-color has-text-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="background-color:#111111;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--60)">
-                <div class="wp-block-group alignwide has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-                    <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-layout-26 wp-block-columns-is-layout-flex" style="padding-bottom:var(--wp--preset--spacing--50)">
-                        <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:48%">
-                            <h2 class="wp-block-heading lemmony-animation has-huge-font-size lemmony-animation" style="font-style:normal;font-weight:400;line-height:1.2;--lemmony-animation-name:lemmonyFadeInUp"><strong>One more thing.</strong></h2>
+            <div class="wp-block-group alignfull lemmony-mobile-text-center has-body-alt-color has-text-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained"
+                style="background-color:#111111;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--60)">
+                <div
+                    class="wp-block-group alignwide has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+                    <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-layout-26 wp-block-columns-is-layout-flex"
+                        style="padding-bottom:var(--wp--preset--spacing--50)">
+                        <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
+                            style="flex-basis:48%">
+                            <h2 class="wp-block-heading lemmony-animation has-huge-font-size lemmony-animation"
+                                style="font-style:normal;font-weight:400;line-height:1.2;--lemmony-animation-name:lemmonyFadeInUp">
+                                <strong>One more thing.</strong></h2>
                         </div>
 
 
 
-                        <div class="wp-block-column is-vertically-aligned-center lemmony-mobile-left is-layout-flow wp-block-column-is-layout-flow">
-                            <div class="wp-block-buttons is-content-justification-right is-layout-flex wp-container-core-buttons-layout-6 wp-block-buttons-is-layout-flex"></div>
+                        <div
+                            class="wp-block-column is-vertically-aligned-center lemmony-mobile-left is-layout-flow wp-block-column-is-layout-flow">
+                            <div
+                                class="wp-block-buttons is-content-justification-right is-layout-flex wp-container-core-buttons-layout-6 wp-block-buttons-is-layout-flex">
+                            </div>
                         </div>
                     </div>
 
 
 
-                    <pre class="wp-block-preformatted is-style-default">POOH is free to use. POOH and his likeness fall under Public Domain in all countries.  
+                    <pre
+                        class="wp-block-preformatted is-style-default">POOH is free to use. POOH and his likeness fall under Public Domain in all countries.  
 
 POOH has no association with any corporation. This token is simply paying homage to a character we all love and recognize. $POOH is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. The coin is completely useless and for entertainment purposes only.</pre>
 
 
 
-                    <hr class="wp-block-separator alignwide has-text-color has-alpha-channel-opacity has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--70);background-color:#575656;color:#575656" />
+                    <hr class="wp-block-separator alignwide has-text-color has-alpha-channel-opacity has-background is-style-wide"
+                        style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--70);background-color:#575656;color:#575656" />
 
 
 
-                    <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-28 wp-block-columns-is-layout-flex" style="padding-top:var(--wp--preset--spacing--20)">
-                        <div class="wp-block-column is-layout-flow wp-container-core-column-layout-64 wp-block-column-is-layout-flow">
-                            <figure class="wp-block-image size-full is-resized lemmony-animation lemmony-animation" style="--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-xsmall)"><img loading="lazy" decoding="async" src="https://pooh.money/wp-content/uploads/2023/04/pooh-logo-black-1.png" alt="" class="wp-image-95" width="654" height="233" srcset="https://pooh.money/wp-content/uploads/2023/04/pooh-logo-black-1.png 1024w, https://pooh.money/wp-content/uploads/2023/04/pooh-logo-black-1-300x107.png 300w, https://pooh.money/wp-content/uploads/2023/04/pooh-logo-black-1-768x275.png 768w"
+                    <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-28 wp-block-columns-is-layout-flex"
+                        style="padding-top:var(--wp--preset--spacing--20)">
+                        <div
+                            class="wp-block-column is-layout-flow wp-container-core-column-layout-64 wp-block-column-is-layout-flow">
+                            <figure class="wp-block-image size-full is-resized lemmony-animation lemmony-animation"
+                                style="--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-xsmall)">
+                                <img loading="lazy" decoding="async"
+                                    src="/default/logo.png" alt=""
+                                    class="wp-image-95" width="654" height="233"
+                                    srcset="/default/logo.png 1024w, https://pooh.money/wp-content/uploads/2023/04/pooh-logo-black-1-300x107.png 300w, https://pooh.money/wp-content/uploads/2023/04/pooh-logo-black-1-768x275.png 768w"
                                     sizes="(max-width: 654px) 100vw, 654px" /></figure>
 
 
 
-                            <p class="has-text-align-center lemmony-animation has-body-alt-color has-text-color has-small-plus-font-size lemmony-animation" style="--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-xsmall)">Join the POOH crew!</p>
+                            <p class="has-text-align-center lemmony-animation has-body-alt-color has-text-color has-small-plus-font-size lemmony-animation"
+                                style="--lemmony-animation-name:lemmonyFadeInUp;animation-delay:var(--lemmony-delay-xsmall)">
+                                Join the POOH crew!</p>
 
 
 
@@ -3762,65 +3521,28 @@ POOH has no association with any corporation. This token is simply paying homage
 
 
                         <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                            <div class="wp-block-columns lemmony-animation lemmony-animation is-layout-flex wp-container-core-columns-layout-27 wp-block-columns-is-layout-flex" style="--lemmony-animation-name:lemmonyFadeIn;animation-duration:var(--lemmony-speed-slow);animation-delay:var(--lemmony-delay-small)">
-                                <div class="wp-block-column is-layout-flow wp-container-core-column-layout-65 wp-block-column-is-layout-flow">
-                                    <h3 class="wp-block-heading has-small-plus-font-size" style="margin-bottom:var(--wp--preset--spacing--20)">Useful Links</h3>
+                            <div class="wp-block-columns lemmony-animation lemmony-animation is-layout-flex wp-container-core-columns-layout-27 wp-block-columns-is-layout-flex"
+                                style="--lemmony-animation-name:lemmonyFadeIn;animation-duration:var(--lemmony-speed-slow);animation-delay:var(--lemmony-delay-small)">
+                               
+
+                                <div
+                                    class="wp-block-column is-layout-flow wp-container-core-column-layout-67 wp-block-column-is-layout-flow">
+                                    <h3 class="wp-block-heading has-small-plus-font-size"
+                                        style="margin-bottom:var(--wp--preset--spacing--20)">Socials</h3>
 
 
 
-                                    <p class="has-body-alt-color has-text-color has-small-font-size"><a href="#tokenomics" data-type="internal" data-id="#tokenomics">Tokenomics</a></p>
+                                    <p class="has-body-alt-color has-text-color has-small-font-size"><a
+                                            href="#" data-type="URL"
+                                            data-id="#" target="_blank"
+                                            rel="noreferrer noopener">Twitter</a></p>
 
 
 
-                                    <p class="has-body-alt-color has-text-color has-small-font-size"><a href="#how-to-buy" data-type="internal" data-id="#how-to-buy">How to Buy POOH</a></p>
-
-
-
-                                    <p class="has-body-alt-color has-text-color has-small-font-size"><a href="#roadmap" data-type="internal" data-id="#roadmap">Roadmap</a></p>
-
-
-
-                                    <p class="has-body-alt-color has-text-color has-small-font-size"></p>
-
-
-
-                                    <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-                                </div>
-
-
-
-                                <div class="wp-block-column is-layout-flow wp-container-core-column-layout-66 wp-block-column-is-layout-flow">
-                                    <h3 class="wp-block-heading has-small-plus-font-size" style="margin-bottom:var(--wp--preset--spacing--20)">POOH Crew</h3>
-
-
-
-                                    <p class="has-body-alt-color has-text-color has-small-font-size"><a href="https://pooh.money/pooh-crew/" data-type="URL" data-id="https://pooh.money/pooh-crew/">Community Projects</a></p>
-
-
-
-                                    <p class="has-body-alt-color has-text-color has-small-font-size"><a href="https://pooh.money/nft/" data-type="URL" data-id="https://pooh.money/nft/">NFT Collection</a></p>
-
-
-
-                                    <p class="has-body-alt-color has-text-color has-small-font-size"></p>
-
-
-
-                                    <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-                                </div>
-
-
-
-                                <div class="wp-block-column is-layout-flow wp-container-core-column-layout-67 wp-block-column-is-layout-flow">
-                                    <h3 class="wp-block-heading has-small-plus-font-size" style="margin-bottom:var(--wp--preset--spacing--20)">Socials</h3>
-
-
-
-                                    <p class="has-body-alt-color has-text-color has-small-font-size"><a href="https://twitter.com/poohmoneyHQ" data-type="URL" data-id="https://twitter.com/poohmoneyHQ" target="_blank" rel="noreferrer noopener">Twitter</a></p>
-
-
-
-                                    <p class="has-body-alt-color has-text-color has-small-font-size"><a href="https://t.me/poohmoneyHQ" data-type="URL" data-id="https://t.me/poohmoneyHQ" target="_blank" rel="noreferrer noopener">Telegram</a></p>
+                                    <p class="has-body-alt-color has-text-color has-small-font-size"><a
+                                            href="#" data-type="URL"
+                                            data-id="#" target="_blank"
+                                            rel="noreferrer noopener">Telegram</a></p>
 
 
 
@@ -3840,63 +3562,72 @@ POOH has no association with any corporation. This token is simply paying homage
 
 
 
-                    <div class="wp-block-columns alignwide lemmony-animation lemmony-animation is-layout-flex wp-container-core-columns-layout-29 wp-block-columns-is-layout-flex" style="padding-top:var(--wp--preset--spacing--30);--lemmony-animation-name:lemmonyFadeIn;animation-delay:var(--lemmony-delay-small)">
-                        <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:238px">
-                            <p class="has-text-color has-tiny-plus-font-size" style="color:#909090">© 2023. All rights reserved. </p>
+                    <div class="wp-block-columns alignwide lemmony-animation lemmony-animation is-layout-flex wp-container-core-columns-layout-29 wp-block-columns-is-layout-flex"
+                        style="padding-top:var(--wp--preset--spacing--30);--lemmony-animation-name:lemmonyFadeIn;animation-delay:var(--lemmony-delay-small)">
+                        <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                            style="flex-basis:238px">
+                            <p class="has-text-color has-tiny-plus-font-size" style="color:#909090">© 2023. All rights
+                                reserved. </p>
                         </div>
 
 
 
-                        <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%"></div>
+                        <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                            style="flex-basis:66.66%"></div>
                     </div>
                 </div>
             </div>
         </footer>
     </div>
     <script id="wp-block-template-skip-link-js-after">
-        (function() {
-            var skipLinkTarget = document.querySelector('main'),
-                sibling,
-                skipLinkTargetID,
-                skipLink;
+            (function () {
+                var skipLinkTarget = document.querySelector('main'),
+                    sibling,
+                    skipLinkTargetID,
+                    skipLink;
 
-            // Early exit if a skip-link target can't be located.
-            if (!skipLinkTarget) {
-                return;
-            }
+                // Early exit if a skip-link target can't be located.
+                if (!skipLinkTarget) {
+                    return;
+                }
 
-            /*
-             * Get the site wrapper.
-             * The skip-link will be injected in the beginning of it.
-             */
-            sibling = document.querySelector('.wp-site-blocks');
+                /*
+                 * Get the site wrapper.
+                 * The skip-link will be injected in the beginning of it.
+                 */
+                sibling = document.querySelector('.wp-site-blocks');
 
-            // Early exit if the root element was not found.
-            if (!sibling) {
-                return;
-            }
+                // Early exit if the root element was not found.
+                if (!sibling) {
+                    return;
+                }
 
-            // Get the skip-link target's ID, and generate one if it doesn't exist.
-            skipLinkTargetID = skipLinkTarget.id;
-            if (!skipLinkTargetID) {
-                skipLinkTargetID = 'wp--skip-link--target';
-                skipLinkTarget.id = skipLinkTargetID;
-            }
+                // Get the skip-link target's ID, and generate one if it doesn't exist.
+                skipLinkTargetID = skipLinkTarget.id;
+                if (!skipLinkTargetID) {
+                    skipLinkTargetID = 'wp--skip-link--target';
+                    skipLinkTarget.id = skipLinkTargetID;
+                }
 
-            // Create the skip link.
-            skipLink = document.createElement('a');
-            skipLink.classList.add('skip-link', 'screen-reader-text');
-            skipLink.href = '#' + skipLinkTargetID;
-            skipLink.innerHTML = 'Skip to content';
+                // Create the skip link.
+                skipLink = document.createElement('a');
+                skipLink.classList.add('skip-link', 'screen-reader-text');
+                skipLink.href = '#' + skipLinkTargetID;
+                skipLink.innerHTML = 'Skip to content';
 
-            // Inject the skip link.
-            sibling.parentElement.insertBefore(skipLink, sibling);
-        }());
+                // Inject the skip link.
+                sibling.parentElement.insertBefore(skipLink, sibling);
+            }());
     </script>
-    <script src="https://pooh.money/wp-content/themes/lemmony/assets/libraries/simpleParallax/simpleParallax.min.js?ver=5.5.1" id="simpleparallax-js"></script>
-    <script src="https://pooh.money/wp-content/themes/lemmony/assets/libraries/countup/countup.min.js?ver=2.3.2" id="countup-js"></script>
-    <script src="https://pooh.money/wp-content/themes/lemmony/assets/libraries/typed/typed.min.js?ver=2.0.12" id="typed-js"></script>
-    <script src="https://pooh.money/wp-content/themes/lemmony/assets/js/scripts.js?ver=1.1.4" id="lemmony-scripts-js"></script>
+    <script
+        src="https://pooh.money/wp-content/themes/lemmony/assets/libraries/simpleParallax/simpleParallax.min.js?ver=5.5.1"
+        id="simpleparallax-js"></script>
+    <script src="https://pooh.money/wp-content/themes/lemmony/assets/libraries/countup/countup.min.js?ver=2.3.2"
+        id="countup-js"></script>
+    <script src="https://pooh.money/wp-content/themes/lemmony/assets/libraries/typed/typed.min.js?ver=2.0.12"
+        id="typed-js"></script>
+    <script src="https://pooh.money/wp-content/themes/lemmony/assets/js/scripts.js?ver=1.1.4"
+        id="lemmony-scripts-js"></script>
 </body>
 
 </html>
